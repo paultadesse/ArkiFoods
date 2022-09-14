@@ -19491,6 +19491,21 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=script&lang=js":
 /*!************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=script&lang=js ***!
@@ -19536,6 +19551,148 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8 ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "px-44 py-24"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "py-12 tracking-wider text-2xl font-bold"
+}, "Flours & Spice Blends", -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
+  "class": "grid grid-cols-6 gap-8"
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "rounded h-56 w-56 mx-auto object-cover hover:rounded-2xl duration-700",
+  src: "https://cdn.shopify.com/s/files/1/0099/8847/2889/products/6.5.1_Bula_540x.JPG?v=1528045395",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
+  "class": "space-y-4 pt-5"
+};
+var _hoisted_6 = {
+  "class": "flex space-x-2 justify-evenly items-center"
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl font-bold tracking-wider"
+}, "Berbere", -1
+/* HOISTED */
+);
+
+var _hoisted_8 = {
+  "class": "flex space-x-2 bg-gray-50 border-gray-200 max-w-min py-1"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24",
+  fill: "#123456",
+  "class": "w-6 h-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "fill-rule": "evenodd",
+  d: "M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z",
+  "clip-rule": "evenodd"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_10 = {
+  "class": "font-light"
+};
+
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24",
+  fill: "#123456",
+  "class": "w-6 h-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "fill-rule": "evenodd",
+  d: "M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm3 10.5a.75.75 0 000-1.5H9a.75.75 0 000 1.5h6z",
+  "clip-rule": "evenodd"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "border-gray-200"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_13 = {
+  "class": "flex items-center justify-between bg-gray-50 p-8 rounded-2xl"
+};
+
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-gray-400 tracking-wide text-sm"
+}, "Price", -1
+/* HOISTED */
+);
+
+var _hoisted_15 = {
+  "class": "text-xl tracking-wider font-bold"
+};
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "text-xs text-gray-500"
+}, "Birr", -1
+/* HOISTED */
+);
+
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "bg-[#123456] p-2 rounded"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "stroke-width": "1.5",
+  stroke: "white",
+  "class": "w-6 h-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  d: "M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+})])], -1
+/* HOISTED */
+);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(8, function (i) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      "class": "col-span-2 border shadow p-7 hover:bg-gray-50 rounded-3xl cursor-pointer",
+      key: i
+    }, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(i), 1
+    /* TEXT */
+    ), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(70 + i * 7) + " ", 1
+    /* TEXT */
+    ), _hoisted_16])]), _hoisted_17])])]);
+  }), 64
+  /* STABLE_FRAGMENT */
+  ))])]);
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=template&id=ea73a808":
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=template&id=ea73a808 ***!
@@ -19553,7 +19710,7 @@ var _hoisted_1 = {
   "class": "px-44 py-24"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center\"><div class=\"col-span-12 p-24\"><p class=\"uppercase tracking-wider text-3xl font-bold\"> All collections </p></div><div class=\"col-span-6 p-4 bg-black\"><img class=\"shadow-2xl hover:scale-110 delay-75 duration-700\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"col-span-6 self-center bg-resd-200 w-full h-full flex items-center\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl\"> flours and spice blends </p><p class=\"text-justify font-light tracking-wide border-l-2 border-gray-200 p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 self-center bg-rsed-200 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl\"> beans &amp; peas </p><p class=\"text-justify font-light tracking-wide border-l-2 border-gray-200 p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-4 bg-black\"><img class=\"shadow-2xl hover:scale-110 delay-75 duration-700\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-4 bg-black\"><img class=\"shadow-2xl hover:scale-110 delay-75 duration-700\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 w-full h-full flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl\"> whole grains </p><p class=\"text-justify font-light tracking-wide border-l-2 border-gray-200 p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl\"> special orders </p><p class=\"text-justify font-light tracking-wide border-l-2 border-gray-200 p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-4 bg-black\"><img class=\"shadow-2xl hover:scale-110 delay-75 duration-700\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center\"><div class=\"col-span-12 p-24\"><p class=\"uppercase tracking-wider text-3xl font-bold text-[#123456]\"> All collections </p></div><div class=\"col-span-6 p-8 border-2 border-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"col-span-6 self-center bg-resd-200 w-full h-full flex items-center\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> flours and spice blends </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 self-center bg-rsed-200 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> beans &amp; peas </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-8 bg-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-8 border-2 border-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 w-full h-full flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> whole grains </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> special orders </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-8 bg-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div>", 1);
 
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -19613,7 +19770,7 @@ var _hoisted_1 = {
   "class": "px-44 py-24"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12\"><h1 class=\"uppercase tracking-wider text-3xl font-bold\">Our story</h1></div><div class=\"flex items-center py-16\"><div class=\"flex-shrink-0 bg-gray-50\"><img class=\"px-12 py-12\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-gray-400 uppercase\"> our founder </p><hr class=\"w-20 border-2\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> In the 1970s, Tejnesh (Emmodish) Benti was the head researcher in the Experimental Kitchen department of the Ethiopian Nutrition Institute. Her team’s lab work refined traditional recipes, tweaking ingredients and cooking practices to naturally enhance the nutritional value of Ethiopian staple foods. The Institute used these findings as educational resources for its public initiatives, including maternal health and school feeding programs. Emmodish took her expertise into her own kitchen when the Institute was dissolved in the early 1990s. This was when her passion for Ethiopian cuisine really blossomed. She created her own spice blends that she sifted into staple dishes, making her already nutritiously rich meals sing with flavor. </p></div></div><div class=\"flex flex-row-reverse items-center py-16\"><div class=\"flex-shrink-0\"><img class=\"px-12 py-12 bg-gray-50\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-gray-400 uppercase\"> our company </p><hr class=\"w-20 border-2\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> Before she founded Arki, Emmodish began to notice that as Addis Ababa’s population grew, fewer and fewer people had the open air and space necessary to prepare traditional flours &amp; spice blends in their own homes. Increasingly, she would get requests from extended family to prepare their year’s provision of berbere and shiro. Her recipes had always been popular but it was then that demand for them grew. The idea for Arki sparked then and developed steadily, along with Emmodish’s excitement that she could share her four decades in nutrition science and original recipes with a wider audience. It was in this way that Emmodish founded Arki as a labor of love, her offering to everyone who wants to cook clean and eat meals that sing with flavor. </p></div></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12\"><h1 class=\"uppercase tracking-wider text-3xl font-bold\">Our story</h1></div><div class=\"flex items-center py-16\"><div class=\"flex-shrink-0 bg-[#123456]\"><img class=\"px-12 py-12\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our founder </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> In the 1970s, Tejnesh (Emmodish) Benti was the head researcher in the Experimental Kitchen department of the Ethiopian Nutrition Institute. Her team’s lab work refined traditional recipes, tweaking ingredients and cooking practices to naturally enhance the nutritional value of Ethiopian staple foods. The Institute used these findings as educational resources for its public initiatives, including maternal health and school feeding programs. Emmodish took her expertise into her own kitchen when the Institute was dissolved in the early 1990s. This was when her passion for Ethiopian cuisine really blossomed. She created her own spice blends that she sifted into staple dishes, making her already nutritiously rich meals sing with flavor. </p></div></div><div class=\"flex flex-row-reverse items-center py-16\"><div class=\"flex-shrink-0\"><img class=\"px-12 py-12 bg-[#123456]\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our company </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> Before she founded Arki, Emmodish began to notice that as Addis Ababa’s population grew, fewer and fewer people had the open air and space necessary to prepare traditional flours &amp; spice blends in their own homes. Increasingly, she would get requests from extended family to prepare their year’s provision of berbere and shiro. Her recipes had always been popular but it was then that demand for them grew. The idea for Arki sparked then and developed steadily, along with Emmodish’s excitement that she could share her four decades in nutrition science and original recipes with a wider audience. It was in this way that Emmodish founded Arki as a labor of love, her offering to everyone who wants to cook clean and eat meals that sing with flavor. </p></div></div>", 3);
 
 var _hoisted_5 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -25832,6 +25989,34 @@ exports["default"] = (sfc, props) => {
 
 /***/ }),
 
+/***/ "./resources/js/Pages/CollectionDetail.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/Pages/CollectionDetail.vue ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CollectionDetail_vue_vue_type_template_id_6bb70ab8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CollectionDetail.vue?vue&type=template&id=6bb70ab8 */ "./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8");
+/* harmony import */ var _CollectionDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CollectionDetail.vue?vue&type=script&lang=js */ "./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js");
+/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CollectionDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CollectionDetail_vue_vue_type_template_id_6bb70ab8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/CollectionDetail.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Collections.vue":
 /*!********************************************!*\
   !*** ./resources/js/Pages/Collections.vue ***!
@@ -25916,6 +26101,22 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js":
+/*!*************************************************************************!*\
+  !*** ./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_CollectionDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_CollectionDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./CollectionDetail.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Collections.vue?vue&type=script&lang=js":
 /*!********************************************************************!*\
   !*** ./resources/js/Pages/Collections.vue?vue&type=script&lang=js ***!
@@ -25961,6 +26162,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Story.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=script&lang=js");
  
+
+/***/ }),
+
+/***/ "./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8 ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_CollectionDetail_vue_vue_type_template_id_6bb70ab8__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_CollectionDetail_vue_vue_type_template_id_6bb70ab8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./CollectionDetail.vue?vue&type=template&id=6bb70ab8 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8");
+
 
 /***/ }),
 
@@ -26249,6 +26466,8 @@ function compileToFunction(template, options) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
+	"./CollectionDetail": "./resources/js/Pages/CollectionDetail.vue",
+	"./CollectionDetail.vue": "./resources/js/Pages/CollectionDetail.vue",
 	"./Collections": "./resources/js/Pages/Collections.vue",
 	"./Collections.vue": "./resources/js/Pages/Collections.vue",
 	"./Home": "./resources/js/Pages/Home.vue",

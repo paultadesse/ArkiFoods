@@ -25,3 +25,7 @@ Route::get('/story', function(){
 Route::get('/collections', function(){
     return Inertia::render('Collections');
 });
+
+Route::get('/collection-detail', function(){
+    return Inertia::render('CollectionDetail');
+});

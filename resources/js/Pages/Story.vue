@@ -4,7 +4,7 @@
       <h1 class="uppercase tracking-wider text-3xl font-bold">Our story</h1>
     </div>
     <div class="flex items-center py-16">
-      <div class="flex-shrink-0 bg-gray-50">
+      <div class="flex-shrink-0 bg-[#123456]">
         <img
           class="px-12 py-12"
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265"
@@ -18,13 +18,13 @@
             text-lg
             tracking-wider
             font-bold
-            text-gray-400
+            text-[#123456]
             uppercase
           "
         >
           our founder
         </p>
-        <hr class="w-20 border-2" />
+        <hr class="w-20 border-2 border-[#123456]" />
         <p
           class="
             text-justify
@@ -52,7 +52,7 @@
     <div class="flex flex-row-reverse items-center py-16">
       <div class="flex-shrink-0">
         <img
-          class="px-12 py-12 bg-gray-50"
+          class="px-12 py-12 bg-[#123456]"
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845"
           alt=""
         />
@@ -64,13 +64,13 @@
             text-lg
             tracking-wider
             font-bold
-            text-gray-400
+            text-[#123456]
             uppercase
           "
         >
         our company
         </p>
-        <hr class="w-20 border-2" />
+        <hr class="w-20 border-2 border-[#123456]" />
         <p
           class="
             text-justify
