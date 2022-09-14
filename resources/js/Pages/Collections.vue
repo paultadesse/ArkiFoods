@@ -28,7 +28,7 @@
           <p
             class="text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]"
           >
-            flours and spice blends
+            Flours and spice blends
           </p>
           <p class="text-justify font-light tracking-wide border-l-2 border-[#123456] p-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
@@ -59,7 +59,7 @@
               first-letter:text-6xl text-[#123456]
             "
           >
-            beans & peas
+            Beans & peas
           </p>
           <p class="text-justify font-light tracking-wide border-l-2 border-[#123456] p-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,

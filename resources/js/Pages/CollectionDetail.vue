@@ -1,11 +1,11 @@
 <template>
   <div class="px-44 py-24">
     <h1 class="py-12 tracking-wider text-2xl font-bold">Flours & Spice Blends</h1>
-    <div class="grid grid-cols-6 gap-8">
+    <div class="grid grid-cols-8 gap-8">
       <div
         class="
           col-span-2
-          border
+          border border-gray-50
           shadow
           p-7
           hover:bg-gray-50
@@ -16,12 +16,12 @@
         :key="i"
       >
         <img
-          class="rounded h-56 w-56 mx-auto object-cover hover:rounded-2xl duration-700"
-          src="https://cdn.shopify.com/s/files/1/0099/8847/2889/products/6.5.1_Bula_540x.JPG?v=1528045395"
+          class="rounded-full h-56 w-56 mx-auto object-cover hover:rounded-2xl duration-700"
+          src="https://www.kubatspices.com/wp-content/uploads/2020/10/Red-Hot-Pepper-Powder-1-600x600.jpg"
           alt=""
         />
         <div class="space-y-4 pt-5">
-          <div class="flex space-x-2 justify-evenly items-center">
+          <div class="flex space-x-2 justify-between px-8 items-center">
             <p class="text-xl font-bold tracking-wider">Berbere</p>
             <div class="flex space-x-2 bg-gray-50 border-gray-200 max-w-min py-1">
               <svg
@@ -52,10 +52,11 @@
               </svg>
             </div>
           </div>
-          <hr class="border-gray-200" />
-          <div class="flex items-center justify-between bg-gray-50 p-8 rounded-2xl">
-            <div>
+          <hr class="border-gray-200 " />
+          <div class="flex items-center justify-between  p-">
+            <div class="space-y-2">
               <p class="text-gray-400 tracking-wide text-sm">Price</p>
+              <hr>
               <p class="text-xl tracking-wider font-bold">
                 {{70 + i * 7}} <span class="text-xs text-gray-500">Birr</span>
               </p>

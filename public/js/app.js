@@ -19575,12 +19575,12 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_3 = {
-  "class": "grid grid-cols-6 gap-8"
+  "class": "grid grid-cols-8 gap-8"
 };
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "rounded h-56 w-56 mx-auto object-cover hover:rounded-2xl duration-700",
-  src: "https://cdn.shopify.com/s/files/1/0099/8847/2889/products/6.5.1_Bula_540x.JPG?v=1528045395",
+  "class": "rounded-full h-56 w-56 mx-auto object-cover hover:rounded-2xl duration-700",
+  src: "https://www.kubatspices.com/wp-content/uploads/2020/10/Red-Hot-Pepper-Powder-1-600x600.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -19590,7 +19590,7 @@ var _hoisted_5 = {
   "class": "space-y-4 pt-5"
 };
 var _hoisted_6 = {
-  "class": "flex space-x-2 justify-evenly items-center"
+  "class": "flex space-x-2 justify-between px-8 items-center"
 };
 
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -19640,26 +19640,33 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_13 = {
-  "class": "flex items-center justify-between bg-gray-50 p-8 rounded-2xl"
+  "class": "flex items-center justify-between p-"
+};
+var _hoisted_14 = {
+  "class": "space-y-2"
 };
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-gray-400 tracking-wide text-sm"
 }, "Price", -1
 /* HOISTED */
 );
 
-var _hoisted_15 = {
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_17 = {
   "class": "text-xl tracking-wider font-bold"
 };
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "text-xs text-gray-500"
 }, "Birr", -1
 /* HOISTED */
 );
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "bg-[#123456] p-2 rounded"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   xmlns: "http://www.w3.org/2000/svg",
@@ -19679,13 +19686,13 @@ var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(8, function (i) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-      "class": "col-span-2 border shadow p-7 hover:bg-gray-50 rounded-3xl cursor-pointer",
+      "class": "col-span-2 border border-gray-50 shadow p-7 hover:bg-gray-50 rounded-3xl cursor-pointer",
       key: i
     }, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(i), 1
     /* TEXT */
-    ), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(70 + i * 7) + " ", 1
+    ), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [_hoisted_15, _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(70 + i * 7) + " ", 1
     /* TEXT */
-    ), _hoisted_16])]), _hoisted_17])])]);
+    ), _hoisted_18])]), _hoisted_19])])]);
   }), 64
   /* STABLE_FRAGMENT */
   ))])]);
@@ -19710,7 +19717,7 @@ var _hoisted_1 = {
   "class": "px-44 py-24"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center\"><div class=\"col-span-12 p-24\"><p class=\"uppercase tracking-wider text-3xl font-bold text-[#123456]\"> All collections </p></div><div class=\"col-span-6 p-8 border-2 border-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"col-span-6 self-center bg-resd-200 w-full h-full flex items-center\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> flours and spice blends </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 self-center bg-rsed-200 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> beans &amp; peas </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-8 bg-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-8 border-2 border-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 w-full h-full flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> whole grains </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> special orders </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-8 bg-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center\"><div class=\"col-span-12 p-24\"><p class=\"uppercase tracking-wider text-3xl font-bold text-[#123456]\"> All collections </p></div><div class=\"col-span-6 p-8 border-2 border-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"col-span-6 self-center bg-resd-200 w-full h-full flex items-center\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Flours and spice blends </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 self-center bg-rsed-200 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Beans &amp; peas </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-8 bg-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-8 border-2 border-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 w-full h-full flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> whole grains </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> special orders </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-8 bg-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div>", 1);
 
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -19770,7 +19777,7 @@ var _hoisted_1 = {
   "class": "px-44 py-24"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12\"><h1 class=\"uppercase tracking-wider text-3xl font-bold\">Our story</h1></div><div class=\"flex items-center py-16\"><div class=\"flex-shrink-0 bg-[#123456]\"><img class=\"px-12 py-12\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our founder </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> In the 1970s, Tejnesh (Emmodish) Benti was the head researcher in the Experimental Kitchen department of the Ethiopian Nutrition Institute. Her team’s lab work refined traditional recipes, tweaking ingredients and cooking practices to naturally enhance the nutritional value of Ethiopian staple foods. The Institute used these findings as educational resources for its public initiatives, including maternal health and school feeding programs. Emmodish took her expertise into her own kitchen when the Institute was dissolved in the early 1990s. This was when her passion for Ethiopian cuisine really blossomed. She created her own spice blends that she sifted into staple dishes, making her already nutritiously rich meals sing with flavor. </p></div></div><div class=\"flex flex-row-reverse items-center py-16\"><div class=\"flex-shrink-0\"><img class=\"px-12 py-12 bg-[#123456]\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our company </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> Before she founded Arki, Emmodish began to notice that as Addis Ababa’s population grew, fewer and fewer people had the open air and space necessary to prepare traditional flours &amp; spice blends in their own homes. Increasingly, she would get requests from extended family to prepare their year’s provision of berbere and shiro. Her recipes had always been popular but it was then that demand for them grew. The idea for Arki sparked then and developed steadily, along with Emmodish’s excitement that she could share her four decades in nutrition science and original recipes with a wider audience. It was in this way that Emmodish founded Arki as a labor of love, her offering to everyone who wants to cook clean and eat meals that sing with flavor. </p></div></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12\"><h1 class=\"uppercase tracking-wider text-3xl font-bold\">Our story</h1></div><div class=\"flex items-center py-16\"><div class=\"flex-shrink-0 bg-[#1d23456]\" style=\"background-image:url(&#39;https://cor.ca/wp-content/uploads/2022/07/Ingredients.jpeg&#39;);\"><img class=\"px-12 py-12\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our founder </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> In the 1970s, Tejnesh (Emmodish) Benti was the head researcher in the Experimental Kitchen department of the Ethiopian Nutrition Institute. Her team’s lab work refined traditional recipes, tweaking ingredients and cooking practices to naturally enhance the nutritional value of Ethiopian staple foods. The Institute used these findings as educational resources for its public initiatives, including maternal health and school feeding programs. Emmodish took her expertise into her own kitchen when the Institute was dissolved in the early 1990s. This was when her passion for Ethiopian cuisine really blossomed. She created her own spice blends that she sifted into staple dishes, making her already nutritiously rich meals sing with flavor. </p></div></div><div class=\"flex flex-row-reverse items-center py-16\"><div class=\"flex-shrink-0 w-3/4\" style=\"background-image:url(&#39;https://www.chatelaine.com/wp-content/uploads/2015/01/Spices-iStock-660x660.jpg&#39;);\"><img class=\"p-24 bg-[#123s456]\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our company </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> Before she founded Arki, Emmodish began to notice that as Addis Ababa’s population grew, fewer and fewer people had the open air and space necessary to prepare traditional flours &amp; spice blends in their own homes. Increasingly, she would get requests from extended family to prepare their year’s provision of berbere and shiro. Her recipes had always been popular but it was then that demand for them grew. The idea for Arki sparked then and developed steadily, along with Emmodish’s excitement that she could share her four decades in nutrition science and original recipes with a wider audience. It was in this way that Emmodish founded Arki as a labor of love, her offering to everyone who wants to cook clean and eat meals that sing with flavor. </p></div></div>", 3);
 
 var _hoisted_5 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {

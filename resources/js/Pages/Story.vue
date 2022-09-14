@@ -4,9 +4,14 @@
       <h1 class="uppercase tracking-wider text-3xl font-bold">Our story</h1>
     </div>
     <div class="flex items-center py-16">
-      <div class="flex-shrink-0 bg-[#123456]">
+      <div
+        class="flex-shrink-0 bg-[#1d23456]"
+        style="
+          background-image: url('https://cor.ca/wp-content/uploads/2022/07/Ingredients.jpeg');
+        "
+      >
         <img
-          class="px-12 py-12"
+          class="px-12 py-12 "
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265"
           alt=""
         />
@@ -50,9 +55,11 @@
     </div>
 
     <div class="flex flex-row-reverse items-center py-16">
-      <div class="flex-shrink-0">
+      <div class="flex-shrink-0 w-3/4" style="
+          background-image: url('https://www.chatelaine.com/wp-content/uploads/2015/01/Spices-iStock-660x660.jpg');
+        ">
         <img
-          class="px-12 py-12 bg-[#123456]"
+          class="p-24 bg-[#123s456]"
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845"
           alt=""
         />
@@ -68,7 +75,7 @@
             uppercase
           "
         >
-        our company
+          our company
         </p>
         <hr class="w-20 border-2 border-[#123456]" />
         <p
