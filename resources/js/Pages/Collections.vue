@@ -6,7 +6,9 @@
           All collections
         </p>
       </div>
-      <div class="col-span-6 p-8 border-2 border-[#123456] rounded-full">
+      <div class="col-span-6 p-12 bordesr-2 bordesr-[#123456] rounded-full" style="
+          background-image: url('https://www.chatelaine.com/wp-content/uploads/2015/01/Spices-iStock-660x660.jpg');
+        ">
         <img
           class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677"
@@ -24,7 +26,7 @@
           items-center
         "
       >
-        <div class="space-y-4">
+        <div class="space-y-4" >
           <p
             class="text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]"
           >
@@ -70,14 +72,18 @@
         </div>
       </div>
 
-      <div class="col-span-6 p-8 bg-[#123456] rounded-full">
+      <div class="col-span-6 p-12 bg-[#123s456] rounded-full" style="
+          background-image: url('https://spicetrip.nl/wp-content/uploads/2022/02/Snapseed.jpg');
+        ">
         <img
           class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711"
           alt=""
         />
       </div>
-      <div class="col-span-6 p-8 border-2 border-[#123456] rounded-full">
+      <div class="col-span-6 p-12 border-2 border-[#123s456] rounded-full" style="
+          background-image: url('https://www.eatthis.com/wp-content/uploads/sites/4/2019/06/grains.jpg?quality=82&strip=1&w=640');
+        ">
         <img
           class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691"
@@ -113,7 +119,9 @@
           </p>
         </div>
       </div>
-      <div class="col-span-6 p-8 bg-[#123456] rounded-full">
+      <div class="col-span-6 p-12 bg-[#123s456] rounded-full" style="
+          background-image: url('https://lh3.googleusercontent.com/UHHzb46JkUPZCLXLc2HnaBO8gpXMCywFb_AqJMCDuF_PHWmVnqMfg4d1o4Bd1YLnY3ixLQwamqAWF_51pL45=s232');
+        ">
         <img
           class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701"
