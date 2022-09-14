@@ -1,5 +1,8 @@
 <template>
- <div class="text-4xl text-red-400 font-bold text-center"> Arki Home page Welcome !</div>
+  <h1 class="text-center">Home page</h1>
+  <div class="text-center text-4xl">
+    Under construction
+  </div>
 </template>
 
 <script>

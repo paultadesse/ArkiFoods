@@ -16,5 +16,12 @@ use Inertia\Inertia;
 
 Route::get('/', function () {
     return Inertia::render('Home');
-    // return view('app');
+});
+
+Route::get('/story', function(){
+    return Inertia::render('Story');
+});
+
+Route::get('/collections', function(){
+    return Inertia::render('Collections');
 });
