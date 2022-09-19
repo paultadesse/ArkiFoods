@@ -6,11 +6,18 @@
           All collections
         </p>
       </div>
-      <div class="col-span-6 p-12 bordesr-2 bordesr-[#123456] rounded-full" style="
-          background-image: url('https://www.chatelaine.com/wp-content/uploads/2015/01/Spices-iStock-660x660.jpg');
-        ">
+      <div class="col-span-6 p-12 bordesr-2 bordesr-[#123456] rounded-full">
         <img
-          class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
+          class="
+            shadow-2xl
+            h-80
+            w-80
+            object-cover
+            hover:scale-110
+            delay-75
+            duration-700
+            rounded-full
+          "
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677"
           alt=""
         />
@@ -26,13 +33,27 @@
           items-center
         "
       >
-        <div class="space-y-4" >
+        <div class="space-y-4">
           <p
-            class="text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]"
+            class="
+              text-4xl
+              font-semibold
+              tracking-wider
+              first-letter:text-6xl
+              text-[#123456]
+            "
           >
             Flours and spice blends
           </p>
-          <p class="text-justify font-light tracking-wide border-l-2 border-[#123456] p-4">
+          <p
+            class="
+              text-justify
+              font-light
+              tracking-wide
+              border-l-2 border-[#123456]
+              p-4
+            "
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
             cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo
             facere nihil voluptatem magnam quam ratione, ipsum assumenda
@@ -58,12 +79,21 @@
               text-4xl text-end
               font-semibold
               tracking-wider
-              first-letter:text-6xl text-[#123456]
+              first-letter:text-6xl
+              text-[#123456]
             "
           >
             Beans & peas
           </p>
-          <p class="text-justify font-light tracking-wide border-l-2 border-[#123456] p-4">
+          <p
+            class="
+              text-justify
+              font-light
+              tracking-wide
+              border-l-2 border-[#123456]
+              p-4
+            "
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
             cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo
             facere nihil voluptatem magnam quam ratione, ipsum assumenda
@@ -72,20 +102,34 @@
         </div>
       </div>
 
-      <div class="col-span-6 p-12 bg-[#123s456] rounded-full" style="
-          background-image: url('https://spicetrip.nl/wp-content/uploads/2022/02/Snapseed.jpg');
-        ">
+      <div class="col-span-6 p-12 bg-[#123s456] rounded-full">
         <img
-          class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
+          class="
+            shadow-2xl
+            h-80
+            w-80
+            object-cover
+            hover:scale-110
+            delay-75
+            duration-700
+            rounded-full
+          "
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711"
           alt=""
         />
       </div>
-      <div class="col-span-6 p-12 border-2 border-[#123s456] rounded-full" style="
-          background-image: url('https://www.eatthis.com/wp-content/uploads/sites/4/2019/06/grains.jpg?quality=82&strip=1&w=640');
-        ">
+      <div class="col-span-6 p-12  rounded-full">
         <img
-          class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
+          class="
+            shadow-2xl
+            h-80
+            w-80
+            object-cover
+            hover:scale-110
+            delay-75
+            duration-700
+            rounded-full
+          "
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691"
           alt=""
         />
@@ -93,11 +137,25 @@
       <div class="col-span-6 w-full h-full flex items-center">
         <div class="space-y-7">
           <p
-            class="text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]"
+            class="
+              text-4xl
+              font-semibold
+              tracking-wider
+              first-letter:text-6xl
+              text-[#123456]
+            "
           >
             whole grains
           </p>
-          <p class="text-justify font-light tracking-wide border-l-2 border-[#123456] p-4">
+          <p
+            class="
+              text-justify
+              font-light
+              tracking-wide
+              border-l-2 border-[#123456]
+              p-4
+            "
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
             cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo
             facere nihil voluptatem magnam quam ratione, ipsum assumenda
@@ -107,11 +165,26 @@
       </div>
       <div class="col-span-6 w-full h-full flex items-center justify-end">
         <div class="space-y-7">
-
-            <p class="text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]">
-                special orders
-            </p>
-            <p class="text-justify font-light tracking-wide border-l-2 border-[#123456] p-4">
+          <p
+            class="
+              text-4xl text-end
+              font-semibold
+              tracking-wider
+              first-letter:text-6xl
+              text-[#123456]
+            "
+          >
+            special orders
+          </p>
+          <p
+            class="
+              text-justify
+              font-light
+              tracking-wide
+              border-l-2 border-[#123456]
+              p-4
+            "
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
             cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo
             facere nihil voluptatem magnam quam ratione, ipsum assumenda
@@ -119,11 +192,18 @@
           </p>
         </div>
       </div>
-      <div class="col-span-6 p-12 bg-[#123s456] rounded-full" style="
-          background-image: url('https://lh3.googleusercontent.com/UHHzb46JkUPZCLXLc2HnaBO8gpXMCywFb_AqJMCDuF_PHWmVnqMfg4d1o4Bd1YLnY3ixLQwamqAWF_51pL45=s232');
-        ">
+      <div class="col-span-6 p-12 bg-[#123s456] rounded-full">
         <img
-          class="shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full"
+          class="
+            shadow-2xl
+            h-80
+            w-80
+            object-cover
+            hover:scale-110
+            delay-75
+            duration-700
+            rounded-full
+          "
           src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701"
           alt=""
         />

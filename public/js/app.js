@@ -19760,7 +19760,7 @@ var _hoisted_1 = {
   "class": "px-44 py-24"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center\"><div class=\"col-span-12 p-24\"><p class=\"uppercase tracking-wider text-3xl font-bold text-[#123456]\"> All collections </p></div><div class=\"col-span-6 p-12 bordesr-2 bordesr-[#123456] rounded-full\" style=\"background-image:url(&#39;https://www.chatelaine.com/wp-content/uploads/2015/01/Spices-iStock-660x660.jpg&#39;);\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"col-span-6 self-center bg-resd-200 w-full h-full flex items-center\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Flours and spice blends </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 self-center bg-rsed-200 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Beans &amp; peas </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-12 bg-[#123s456] rounded-full\" style=\"background-image:url(&#39;https://spicetrip.nl/wp-content/uploads/2022/02/Snapseed.jpg&#39;);\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-12 border-2 border-[#123s456] rounded-full\" style=\"background-image:url(&#39;https://www.eatthis.com/wp-content/uploads/sites/4/2019/06/grains.jpg?quality=82&amp;strip=1&amp;w=640&#39;);\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 w-full h-full flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> whole grains </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> special orders </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-12 bg-[#123s456] rounded-full\" style=\"background-image:url(&#39;https://lh3.googleusercontent.com/UHHzb46JkUPZCLXLc2HnaBO8gpXMCywFb_AqJMCDuF_PHWmVnqMfg4d1o4Bd1YLnY3ixLQwamqAWF_51pL45=s232&#39;);\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center\"><div class=\"col-span-12 p-24\"><p class=\"uppercase tracking-wider text-3xl font-bold text-[#123456]\"> All collections </p></div><div class=\"col-span-6 p-12 bordesr-2 bordesr-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"col-span-6 self-center bg-resd-200 w-full h-full flex items-center\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Flours and spice blends </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 self-center bg-rsed-200 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Beans &amp; peas </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-12 bg-[#123s456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-12 rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 w-full h-full flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> whole grains </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> special orders </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-12 bg-[#123s456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div>", 1);
 
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -19783,7 +19783,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"landing\"><!-- &lt;h1 id=&quot;logo&quot;&gt;Arki&lt;/h1&gt;\n    &lt;ul class=&quot;nav-links&quot;&gt;\n      &lt;li&gt;Home&lt;/li&gt;\n      &lt;li&gt;contact&lt;/li&gt;\n      &lt;li&gt;about&lt;/li&gt;\n    &lt;/ul&gt; --><div class=\"big-text space-y-7 text-center\"><h2 class=\"text-7xl font-bold uppercase tracking-wider\">Arki Agro</h2><div class=\"flex justify-center items-center space-x-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-5 h-5\"><path d=\"M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z\"></path></svg><p class=\"font-bold tracking-wider text-sm\">Food That Loves You</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-4 h-4\"><path d=\"M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z\"></path></svg></div><p class=\"max-w-xl text-justify bg-white bg-opacity-25 px-8 py-24 tracking-wider\"> Making food is an act of love, and fresh ingredients are the root of the perfect meal. We provide you spice blends, whole grains and beans that are as nutritious as they are flavorful. Choose Arki for food that loves you. </p></div></section><div class=\"intro flex justify-center items-center\"><div class=\"intro-text text-7xl uppercase font-bold tracking-wide\"><h1 class=\"hide\"><span class=\"text\">Arki agro food</span></h1><h1 class=\"hide\"><span class=\"text\">that loves</span></h1><h1 class=\"hide\"><span class=\"text\">you ♥ </span></h1></div></div><div class=\"slider\"></div>", 3);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"landing\"><!-- &lt;h1 id=&quot;logo&quot;&gt;Arki&lt;/h1&gt;\n    &lt;ul class=&quot;nav-links&quot;&gt;\n      &lt;li&gt;Home&lt;/li&gt;\n      &lt;li&gt;contact&lt;/li&gt;\n      &lt;li&gt;about&lt;/li&gt;\n    &lt;/ul&gt; --><div class=\"big-text space-y-7 text-center bg-black bg-opacity-25\"><h2 class=\"text-7xl font-bold uppercase tracking-wider text-white\">Arki Agro</h2><div class=\"flex justify-center items-center space-x-2\"><p class=\"font-bold tracking-wider text-sm text-white\">Food That Loves You</p></div><p class=\"max-w-xl text-justify bg-white bg-opacity-90 text-lg px-8 py-7 tracking-wide\"> Making food is an act of love, and fresh ingredients are the root of the perfect meal. We provide you spice blends, whole grains and beans that are as nutritious as they are flavorful. Choose Arki for food that loves you. </p></div></section><div class=\"intro flex justify-center items-center\"><div class=\"intro-text text-7xl uppercase font-bold tracking-wide\"><h1 class=\"hide\"><span class=\"text\">Arki agro food</span></h1><h1 class=\"hide\"><span class=\"text\">that loves</span></h1><h1 class=\"hide\"><span class=\"text\">you. </span></h1></div></div><div class=\"slider\"></div>", 3);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div>another section</div> ")], 2112
@@ -19947,11 +19947,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_ARKI_AGRO_SLIDESHOW_PHOTOS_6_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg */ "./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg");
 // Imports
 
+
+
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_SLIDESHOW_PHOTOS_6_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n.landing {\n  min-height: 100vh;\n  background: url(\"https://images.pexels.com/photos/4199064/pexels-photo-4199064.jpeg\");\n  /* background: url(\"https://static01.nyt.com/images/2020/03/17/well/askwell-wholegrains/askwell-wholegrains-videoSixteenByNineJumbo1600.jpg\"); */\n  background-size: cover;\n}\n.big-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.intro {\n  position: fixed;\n  top: 0;\n  left: 0;\n  background: #fff;\n  width: 100%;\n  height: 100%;\n}\n.slider {\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* background: rgb(251, 251, 251); */\n  background: #0f2c48;\n  width: 100%;\n  height: 100%;\n  transform: translateY(100%);\n}\n.intro-text {\n  color: #123456;\n}\n.hide {\n  background: #fff;\n  overflow: hidden;\n}\n.hide span {\n  transform: translateY(100%);\n  display: inline-block;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n.landing {\n  min-height: 100vh;\n  /* background: url(\"https://images.pexels.com/photos/4199064/pexels-photo-4199064.jpeg\"); */\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n.big-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.intro {\n  position: fixed;\n  top: 0;\n  left: 0;\n  background: #fff;\n  width: 100%;\n  height: 100%;\n}\n.slider {\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* background: rgb(251, 251, 251); */\n  background: #0f2c48;\n  width: 100%;\n  height: 100%;\n  transform: translateY(100%);\n}\n.intro-text {\n  color: #123456;\n}\n.hide {\n  background: #fff;\n  overflow: hidden;\n}\n.hide span {\n  transform: translateY(100%);\n  display: inline-block;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20030,6 +20036,50 @@ module.exports = function (cssWithMappingToString) {
   };
 
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== "string") {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
@@ -20175,6 +20225,21 @@ var deepmerge_1 = deepmerge;
 
 module.exports = deepmerge_1;
 
+
+/***/ }),
+
+/***/ "./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg":
+/*!******************************************************************!*\
+  !*** ./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg?f6c42b79ff6fef5c7dc86de34166d941");
 
 /***/ }),
 
