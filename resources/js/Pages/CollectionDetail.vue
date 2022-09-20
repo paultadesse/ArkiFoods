@@ -16,8 +16,8 @@
         :key="i"
       >
         <img
-          class="rounded-full h-56 w-56 mx-auto object-cover hover:rounded-2xl duration-700"
-          src="https://www.kubatspices.com/wp-content/uploads/2020/10/Red-Hot-Pepper-Powder-1-600x600.jpg"
+          class="h-56 w-56 mx-auto object-cover rounded-xl duration-700"
+          src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677"
           alt=""
         />
         <div class="space-y-4 pt-5">

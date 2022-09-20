@@ -6,20 +6,29 @@
       <li>contact</li>
       <li>about</li>
     </ul> -->
-    <div class="big-text space-y-7 text-center bg-black bg-opacity-25">
-      <h2 class="text-7xl font-bold uppercase tracking-wider text-white">Arki Agro</h2>
-      <div class="flex justify-center items-center space-x-2">
-        <p class="font-bold tracking-wider text-sm text-white">Food That Loves You</p>
+    <div class="big-text space-y- text-center bg-white">
+      <!-- <h2 class="text-7xl font-bold uppercase tracking-wider text-white">Arki Agro</h2> -->
+      <img
+        class="h-96 w-96 rounded-full mx-auto"
+        src="@/../assets/logos/ARKI_AGRO_LOGO_WHITE.png"
+        alt=""
+      />
+      <div class="flex justify-center items-center bg-black space-x-2 py-2">
+        <p class="font-bold tracking-wider text-sm text-white">
+          Food That Loves You
+        </p>
       </div>
       <p
         class="
-          max-w-xl
+          max-w-lg
           text-justify
-          bg-white bg-opacity-90
+          bg-black
           text-lg
           px-8
-          py-7
+          text-white
+          py-4
           tracking-wide
+          foant-bold
         "
       >
         Making food is an act of love, and fresh ingredients are the root of the
@@ -31,6 +40,11 @@
   </section>
 
   <div class="intro flex justify-center items-center">
+    <img
+      class="h-96 w-96 rounded-full"
+      src="@/../assets/logos/ARKI_AGRO_LOGO_WHITE.png"
+      alt=""
+    />
     <div class="intro-text text-7xl uppercase font-bold tracking-wide">
       <h1 class="hide">
         <span class="text">Arki agro food</span>
@@ -44,7 +58,13 @@
     </div>
   </div>
 
-  <div class="slider"></div>
+  <div class="slider flex min-h-screen justify-center items-center">
+    <img
+      class="h-96 w-96 rounded-full"
+      src="@/../assets/logos/ARKI_AGRO_LOGO_WHITE.png"
+      alt=""
+    />
+  </div>
   <!-- <div>another section</div> -->
 </template>
 
@@ -116,7 +136,7 @@ onMounted(() => {
 
   tl.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
 
-  tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
+  tl.to(".intro", { y: "-100%", duration: 1.5 }, "-=1");
 
   tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 });
 });

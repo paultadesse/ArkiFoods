@@ -19557,7 +19557,7 @@ __webpack_require__.r(__webpack_exports__);
       });
       tl.to(".intro", {
         y: "-100%",
-        duration: 1
+        duration: 1.5
       }, "-=1");
       tl.fromTo(".big-text", {
         opacity: 0
@@ -19622,8 +19622,8 @@ var _hoisted_3 = {
 };
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "rounded-full h-56 w-56 mx-auto object-cover hover:rounded-2xl duration-700",
-  src: "https://www.kubatspices.com/wp-content/uploads/2020/10/Red-Hot-Pepper-Powder-1-600x600.jpg",
+  "class": "h-56 w-56 mx-auto object-cover rounded-xl duration-700",
+  src: "https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -19757,10 +19757,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "px-44 py-24"
+  "class": "background-img text-wshite"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center\"><div class=\"col-span-12 p-24\"><p class=\"uppercase tracking-wider text-3xl font-bold text-[#123456]\"> All collections </p></div><div class=\"col-span-6 p-12 bordesr-2 bordesr-[#123456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"col-span-6 self-center bg-resd-200 w-full h-full flex items-center\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Flours and spice blends </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 self-center bg-rsed-200 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> Beans &amp; peas </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-12 bg-[#123s456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-12 rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 w-full h-full flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> whole grains </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl text-[#123456]\"> special orders </p><p class=\"text-justify font-light tracking-wide border-l-2 border-[#123456] p-4\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 p-12 bg-[#123s456] rounded-full\"><img class=\"shadow-2xl h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-44 py-24 bg-bslack bg-opascity-75\"><div class=\"grid grid-cols-12 gasp-4 place-items-center\"><div class=\"col-span-12 flex items-center justify-between p-24 bg-white w-full\"><p class=\"uppercase tracking-wider text-3xl font-bold\"> All collections </p><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-10 h-10 hover:scale-110 delay-500 duration-150 cursor-pointer\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3\"></path></svg></div><div class=\"col-span-6 w-full h-full bg-white p-12 bg-opacity-75\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"bg-white col-span-6 w-full h-full flex items-center px-7\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl\"> Flours and spice blends </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"bg-white col-span-6 px-7 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl\"> Beans &amp; peas </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 bg-white bg-opacity-75 w-full h-full p-12 bg-[#123s456]\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-12 bg-opacity-75 bg-white w-full h-full\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 bg-white w-full h-full px-7 flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl\"> whole grains </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 bg-white w-full px-7 h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl\"> special orders </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 bg-white bg-opacity-75 h-full w-full p-12 bg-[#123s456]\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div></div>", 1);
 
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -19781,9 +19781,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/logos/ARKI_AGRO_LOGO_WHITE.png */ "./resources/assets/logos/ARKI_AGRO_LOGO_WHITE.png");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"landing\"><!-- &lt;h1 id=&quot;logo&quot;&gt;Arki&lt;/h1&gt;\n    &lt;ul class=&quot;nav-links&quot;&gt;\n      &lt;li&gt;Home&lt;/li&gt;\n      &lt;li&gt;contact&lt;/li&gt;\n      &lt;li&gt;about&lt;/li&gt;\n    &lt;/ul&gt; --><div class=\"big-text space-y-7 text-center bg-black bg-opacity-25\"><h2 class=\"text-7xl font-bold uppercase tracking-wider text-white\">Arki Agro</h2><div class=\"flex justify-center items-center space-x-2\"><p class=\"font-bold tracking-wider text-sm text-white\">Food That Loves You</p></div><p class=\"max-w-xl text-justify bg-white bg-opacity-90 text-lg px-8 py-7 tracking-wide\"> Making food is an act of love, and fresh ingredients are the root of the perfect meal. We provide you spice blends, whole grains and beans that are as nutritious as they are flavorful. Choose Arki for food that loves you. </p></div></section><div class=\"intro flex justify-center items-center\"><div class=\"intro-text text-7xl uppercase font-bold tracking-wide\"><h1 class=\"hide\"><span class=\"text\">Arki agro food</span></h1><h1 class=\"hide\"><span class=\"text\">that loves</span></h1><h1 class=\"hide\"><span class=\"text\">you. </span></h1></div></div><div class=\"slider\"></div>", 3);
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"landing\"><!-- &lt;h1 id=&quot;logo&quot;&gt;Arki&lt;/h1&gt;\n    &lt;ul class=&quot;nav-links&quot;&gt;\n      &lt;li&gt;Home&lt;/li&gt;\n      &lt;li&gt;contact&lt;/li&gt;\n      &lt;li&gt;about&lt;/li&gt;\n    &lt;/ul&gt; --><div class=\"big-text space-y- text-center bg-white\"><!-- &lt;h2 class=&quot;text-7xl font-bold uppercase tracking-wider text-white&quot;&gt;Arki Agro&lt;/h2&gt; --><img class=\"h-96 w-96 rounded-full mx-auto\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"><div class=\"flex justify-center items-center bg-black space-x-2 py-2\"><p class=\"font-bold tracking-wider text-sm text-white\"> Food That Loves You </p></div><p class=\"max-w-lg text-justify bg-black text-lg px-8 text-white py-4 tracking-wide foant-bold\"> Making food is an act of love, and fresh ingredients are the root of the perfect meal. We provide you spice blends, whole grains and beans that are as nutritious as they are flavorful. Choose Arki for food that loves you. </p></div></section><div class=\"intro flex justify-center items-center\"><img class=\"h-96 w-96 rounded-full\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"><div class=\"intro-text text-7xl uppercase font-bold tracking-wide\"><h1 class=\"hide\"><span class=\"text\">Arki agro food</span></h1><h1 class=\"hide\"><span class=\"text\">that loves</span></h1><h1 class=\"hide\"><span class=\"text\">you. </span></h1></div></div><div class=\"slider flex min-h-screen justify-center items-center\"><img class=\"h-96 w-96 rounded-full\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"></div>", 3);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div>another section</div> ")], 2112
@@ -19930,6 +19932,36 @@ if ($defineProperty) {
 } else {
 	module.exports.apply = applyBind;
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg */ "./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg");
+// Imports
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  min-height: 100vh;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
@@ -20228,6 +20260,21 @@ module.exports = deepmerge_1;
 
 /***/ }),
 
+/***/ "./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg":
+/*!*******************************************************************!*\
+  !*** ./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg?56dcbb7527fdce783a2221ad79353a43");
+
+/***/ }),
+
 /***/ "./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg":
 /*!******************************************************************!*\
   !*** ./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg ***!
@@ -20240,6 +20287,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg?f6c42b79ff6fef5c7dc86de34166d941");
+
+/***/ }),
+
+/***/ "./resources/assets/logos/ARKI_AGRO_LOGO_WHITE.png":
+/*!*********************************************************!*\
+  !*** ./resources/assets/logos/ARKI_AGRO_LOGO_WHITE.png ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_LOGO_WHITE.png?284423a4b41e052446497c4518237466");
 
 /***/ }),
 
@@ -26172,6 +26234,36 @@ module.exports = function getSideChannel() {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css ***!
@@ -26544,13 +26636,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Collections_vue_vue_type_template_id_ea73a808__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Collections.vue?vue&type=template&id=ea73a808 */ "./resources/js/Pages/Collections.vue?vue&type=template&id=ea73a808");
 /* harmony import */ var _Collections_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Collections.vue?vue&type=script&lang=js */ "./resources/js/Pages/Collections.vue?vue&type=script&lang=js");
-/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css */ "./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css");
+/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Collections_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Collections_vue_vue_type_template_id_ea73a808__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Collections.vue"]])
+
+
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Collections_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Collections_vue_vue_type_template_id_ea73a808__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Collections.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -26742,6 +26837,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_template_id_672a12c8__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_template_id_672a12c8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Story.vue?vue&type=template&id=672a12c8 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=template&id=672a12c8");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css");
 
 
 /***/ }),
