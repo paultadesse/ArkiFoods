@@ -1,81 +1,80 @@
 <template>
-  <div class="px-44 py-24">
-    <h1 class="py-12 tracking-wider text-2xl font-bold">Flours & Spice Blends</h1>
-    <div class="grid grid-cols-8 gap-8">
-      <div
-        class="
-          col-span-2
-          border border-gray-50
-          shadow
-          p-7
-          hover:bg-gray-50
-          rounded-3xl
-          cursor-pointer
-        "
-        v-for="i in 8"
-        :key="i"
-      >
-        <img
-          class="h-56 w-56 mx-auto object-cover rounded-xl duration-700"
-          src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677"
-          alt=""
-        />
-        <div class="space-y-4 pt-5">
-          <div class="flex space-x-2 justify-between px-8 items-center">
-            <p class="text-xl font-bold tracking-wider">Berbere</p>
-            <div class="flex space-x-2 bg-gray-50 border-gray-200 max-w-min py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#123456"
-                class="w-6 h-6"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-
-              <p class="font-light">{{ i }}</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#123456"
-                class="w-6 h-6"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm3 10.5a.75.75 0 000-1.5H9a.75.75 0 000 1.5h6z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </div>
+  <div class="background-img text-wshite">
+    <div class="px-44 py-24">
+      <div class="bg-white bg-opacity-90 flex justify-between items-center">
+        <h1 class="py-12 px-7 tracking-wider text-2xl font-bold">
+          Flours & Spice Blends
+        </h1>
+        <div>
+          <img
+            class="h-40 w-40 rounsded-full mx-auto"
+            src="@/../assets/logos/ARKI_AGRO_LOGO_BLACK.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="grid grid-cols-12 gap-4 py-2">
+        <div
+          class="col-span-3 shadow hover:bg-gray-50 cursor-pointer"
+          v-for="i in 8"
+          :key="i"
+        >
+          <div
+            class="
+              relative
+              pb-full
+              bg-white bg-opacity-70
+              xs:h-auto xs:square
+              animate__animated animate__fadeIn animate_delay-2s
+            "
+          >
+            <img
+              class="absolute h-full w-full rounsded-full object-cover p-12"
+              src="https://cdn.shopify.com/s/files/1/0099/8847/2889/products/8.4.1_Fendisha_2a8c76f0-db15-4855-b9d1-88e6b77e0616_540x.JPG?v=1528046761"
+              alt="artist photo"
+              srcset=""
+            />
           </div>
-          <hr class="border-gray-200 " />
-          <div class="flex items-center justify-between  p-">
-            <div class="space-y-2">
-              <p class="text-gray-400 tracking-wide text-sm">Price</p>
-              <hr>
-              <p class="text-xl tracking-wider font-bold">
-                {{70 + i * 7}} <span class="text-xs text-gray-500">Birr</span>
-              </p>
-            </div>
-            <div class="bg-[#123456] p-2 rounded">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="white"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
-                />
-              </svg>
+          <div
+            class="
+              bg-white
+              border-t
+              p-12
+              py-2
+              text-sm
+              tracking-widest
+              animate__animated animate__fadeInLeft
+            "
+          >
+            <div class="flex justify-between items-center py-4">
+              <div class="space-y-2">
+                <h1 class="text-xl font-bold">Fendisha</h1>
+                <div class="">
+                  <!-- <p class="text-gray-400 tracking-wide text-sm">Price</p> -->
+                  <!-- <hr /> -->
+                  <p class="text-xl tracking-wider font-bold">
+                    {{ 70 + i * 7 }}
+                    <span class="text-xs text-gray-500">Birr</span>
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#12/3456] ps-2 rounded">
+                  <button
+                    class="
+                      bg-black
+                      px-4
+                      py-2
+                      text-white
+                      rounded
+                      text-xs
+                      tracking-wide
+                    "
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -89,4 +88,9 @@ export default {};
 </script>
 
 <style>
+.background-img {
+  min-height: 100vh;
+  background: url("@/../assets/images/ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2.jpg");
+  background-size: cover;
+}
 </style>

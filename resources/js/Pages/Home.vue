@@ -6,36 +6,33 @@
       <li>contact</li>
       <li>about</li>
     </ul> -->
-    <div class="big-text space-y- text-center bg-white">
-      <!-- <h2 class="text-7xl font-bold uppercase tracking-wider text-white">Arki Agro</h2> -->
+    <div class="big-text text-center flex items-center bg-white">
       <img
-        class="h-96 w-96 rounded-full mx-auto"
+        class="h-72 w-72 rounsded-full mx-auto"
         src="@/../assets/logos/ARKI_AGRO_LOGO_WHITE.png"
         alt=""
       />
-      <div class="flex justify-center items-center bg-black space-x-2 py-2">
-        <p class="font-bold tracking-wider text-sm text-white">
-          Food That Loves You
+      <div class="space-x-4 py-2 border-l">
+        <p class="font-bold tracking-wider">Food That Loves You</p>
+        <div class="flex justify-center py-2">
+          <!-- <hr class="w-1/2 border-black" /> -->
+        </div>
+        <p
+          class="
+            max-w-lg
+            text-justify
+            px-8
+            tracking-wide
+            foant-bold
+            first-letter:text-2xl
+          "
+        >
+          Making food is an act of love, and fresh ingredients are the root of
+          the perfect meal. We provide you spice blends, whole grains and beans
+          that are as nutritious as they are flavorful. Choose Arki for food
+          that loves you.
         </p>
       </div>
-      <p
-        class="
-          max-w-lg
-          text-justify
-          bg-black
-          text-lg
-          px-8
-          text-white
-          py-4
-          tracking-wide
-          foant-bold
-        "
-      >
-        Making food is an act of love, and fresh ingredients are the root of the
-        perfect meal. We provide you spice blends, whole grains and beans that
-        are as nutritious as they are flavorful. Choose Arki for food that loves
-        you.
-      </p>
     </div>
   </section>
 
