@@ -9,4 +9,10 @@
     .rectangle {
       aspect-ratio: 3 / 4;
     }
+    .inset-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }

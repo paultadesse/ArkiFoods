@@ -19521,10 +19521,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&lang=js":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19532,50 +19532,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'Home',
-  setup: function setup(__props, _ref) {
-    var expose = _ref.expose;
-    expose();
-    (0,vue__WEBPACK_IMPORTED_MODULE_0__.onMounted)(function () {
-      var tl = gsap.timeline({
-        defaults: {
-          ease: "power1.out"
-        }
-      });
-      tl.to(".text", {
-        y: "0%",
-        duration: 1.5,
-        stagger: 0.5
-      });
-      tl.to(".slider", {
-        y: "-100%",
-        duration: 1.5,
-        delay: 0.5
-      });
-      tl.to(".intro", {
-        y: "-100%",
-        duration: 1.5
-      }, "-=1");
-      tl.fromTo(".big-text", {
-        opacity: 0
-      }, {
-        opacity: 1,
-        duration: 1
-      });
-    });
-    var __returned__ = {
-      onMounted: vue__WEBPACK_IMPORTED_MODULE_0__.onMounted
-    };
-    Object.defineProperty(__returned__, '__isScriptSetup', {
-      enumerable: false,
-      value: true
-    });
-    return __returned__;
-  }
-});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
 
@@ -19739,11 +19696,95 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"landing\"><!-- &lt;h1 id=&quot;logo&quot;&gt;Arki&lt;/h1&gt;\n    &lt;ul class=&quot;nav-links&quot;&gt;\n      &lt;li&gt;Home&lt;/li&gt;\n      &lt;li&gt;contact&lt;/li&gt;\n      &lt;li&gt;about&lt;/li&gt;\n    &lt;/ul&gt; --><div class=\"big-text text-center flex items-center bg-white\"><img class=\"h-72 w-72 rounsded-full mx-auto\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"><div class=\"space-x-4 py-2 border-l\"><p class=\"font-bold tracking-wider\">Food That Loves You</p><div class=\"flex justify-center py-2\"><!-- &lt;hr class=&quot;w-1/2 border-black&quot; /&gt; --></div><p class=\"max-w-lg text-justify px-8 tracking-wide foant-bold first-letter:text-2xl\"> Making food is an act of love, and fresh ingredients are the root of the perfect meal. We provide you spice blends, whole grains and beans that are as nutritious as they are flavorful. Choose Arki for food that loves you. </p></div></div></section><div class=\"intro flex justify-center items-center\"><img class=\"h-96 w-96 rounded-full\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"><div class=\"intro-text text-7xl uppercase font-bold tracking-wide\"><h1 class=\"hide\"><span class=\"text\">Arki agro food</span></h1><h1 class=\"hide\"><span class=\"text\">that loves</span></h1><h1 class=\"hide\"><span class=\"text\">you. </span></h1></div></div><div class=\"slider flex min-h-screen justify-center items-center\"><img class=\"h-96 w-96 rounded-full\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"></div>", 3);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative background-img h-screen\"><!-- Nav Bar --><div class=\"bg-white py-2\"><div class=\"flex justify-evenly items-center\"><div><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5\"></path></svg></div><div class=\"px-8\"><img class=\"h-20 w-20 rounded-full mx-auto\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"></div><div><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z\"></path></svg></div></div></div><div class=\"absolute bottom-0 w-full bg-black bg-opacity-40 text-white font-bold py-9\"><div class=\"grid grid-cols-12 gap-4 uppercase\"><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>flour &amp; spice blends</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>whole grains</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>beans &amp; peas</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>special orders</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div></div></div></div>", 1);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12\"><div class=\"text-center space-y-12\"><hr class=\"w-24 border-4 mx-auto\"><h1 class=\"text-4xl\">Our Story</h1><h2 class=\"max-w-3xl tracking-wider text-justify px-4 xl:px-0\"> Making food is an act of love, and fresh ingredients are the root of the perfect meal. We provide you spice blends, whole grains and beans that are as nutritious as they are flavorful. Choose Arki for food that loves you. </h2><button class=\"px-4 py-4 uppercase tracking-widest border-4 border-black text-sm\"> view more </button></div></div>", 1);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "grid grid-cols-12 place-items-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative col-span-12 xl:col-span-4 h-[775px] bg-black"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "object-cover h-full opacity-70",
+  alt: "process",
+  src: "https://cdn.shopify.com/s/files/1/0099/8847/2889/files/2.1Cleaning.JPG?v=1615922779"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-white inset-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col items-center space-y-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "aria-hidden": "true",
+  focusable: "false",
+  role: "presentation",
+  "class": "border-4 border-[#cf7a03] rounded-full h-14 w-14 fill-[#cf7a03]",
+  viewBox: "0 0 64 64"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M20.3 23.9c-5.3 5.3-5.5 13.6-.7 19.1l-3.3 3.3 1.4 1.4 3.3-3.3c2.5 2.2 5.8 3.4 9.2 3.4 3.7 0 7.3-1.5 9.9-4.1 5.1-5.1 6.8-25.3 6.9-27.6l.2-2.8-2.7.7c-2 .6-19.3 5-24.2 9.9zm16.9 17c-1.9 1.9-4.4 2.9-7.1 2.9-2.3 0-4.5-.8-6.3-2.3L35.4 30 34 28.6 22.4 40.2c-3.2-3.9-3-9.7.7-13.4 3-3 13.5-6.4 19.7-8.1-.9 8.1-2.9 19.5-5.6 22.2z"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "uppercase text-lg font-bold tracking-wider"
+}, "handpicked")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative col-span-12 xl:col-span-4 h-[775px] bg-black"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "object-cover h-full opacity-70",
+  alt: "process",
+  src: "https://cdn.shopify.com/s/files/1/0099/8847/2889/files/2.2Cleaning.JPG?v=1615922779"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-white inset-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col items-center space-y-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "aria-hidden": "true",
+  focusable: "false",
+  role: "presentation",
+  "class": "border-4 border-[#cf7a03] rounded-full h-14 w-14 fill-[#cf7a03]",
+  viewBox: "0 0 64 64"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M20.3 23.9c-5.3 5.3-5.5 13.6-.7 19.1l-3.3 3.3 1.4 1.4 3.3-3.3c2.5 2.2 5.8 3.4 9.2 3.4 3.7 0 7.3-1.5 9.9-4.1 5.1-5.1 6.8-25.3 6.9-27.6l.2-2.8-2.7.7c-2 .6-19.3 5-24.2 9.9zm16.9 17c-1.9 1.9-4.4 2.9-7.1 2.9-2.3 0-4.5-.8-6.3-2.3L35.4 30 34 28.6 22.4 40.2c-3.2-3.9-3-9.7.7-13.4 3-3 13.5-6.4 19.7-8.1-.9 8.1-2.9 19.5-5.6 22.2z"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "uppercase text-lg font-bold tracking-wider"
+}, "twice washed")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative col-span-12 xl:col-span-4 h-[775px] bg-black"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "object-cover h-full opacity-70",
+  alt: "process",
+  src: "https://cdn.shopify.com/s/files/1/0099/8847/2889/files/2.3Cleaning.JPG?v=1615922779"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-white inset-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col items-center space-y-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "aria-hidden": "true",
+  focusable: "false",
+  role: "presentation",
+  "class": "border-4 border-[#cf7a03] rounded-full h-14 w-14 fill-[#cf7a03]",
+  viewBox: "0 0 64 64"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M20.3 23.9c-5.3 5.3-5.5 13.6-.7 19.1l-3.3 3.3 1.4 1.4 3.3-3.3c2.5 2.2 5.8 3.4 9.2 3.4 3.7 0 7.3-1.5 9.9-4.1 5.1-5.1 6.8-25.3 6.9-27.6l.2-2.8-2.7.7c-2 .6-19.3 5-24.2 9.9zm16.9 17c-1.9 1.9-4.4 2.9-7.1 2.9-2.3 0-4.5-.8-6.3-2.3L35.4 30 34 28.6 22.4 40.2c-3.2-3.9-3-9.7.7-13.4 3-3 13.5-6.4 19.7-8.1-.9 8.1-2.9 19.5-5.6 22.2z"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "uppercase text-lg font-bold tracking-wider"
+}, "sun dried")])])])], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center py-12"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center space-y-12"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <hr class=\"w-24 border-4 mx-auto\" /> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "text-4xl"
+}, "Our Cleaning Process"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "max-w-2xl tracking-wider text-justify px-4 xl:px-0"
+}, " Our philosophy is that clean ingredients are the essence of nutritional value and taste. We first pick out foreign matter by hand and then with a winnowing tray and sieve. We then wash our product twice to remove any further impurities. Once it is thoroughly clean, we lay it out to dry under the natural light of the sun. Our products are regularly laboratory-tested to assure our customers’ safety from toxins. ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12 bg-gray-50\"><div class=\"text-center space-y-12\"><!-- &lt;hr class=&quot;w-24 border-4 mx-auto&quot; /&gt; --><h1 class=\"text-4xl\">Our Products</h1><div class=\"grid grid-cols-4 gap-4\"><div class=\"col-span-4 xl:col-span-1 space-y-3\"><div class=\"overflow-hidden\"><img class=\"object-cover h-52 w-52 hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans.JPG?v=1527878711\"></div><p class=\"uppercase font-bold tracking-wider\">beans &amp; peas</p></div><div class=\"col-span-4 xl:col-span-1 space-y-3\"><div class=\"overflow-hidden\"><img class=\"object-cover h-52 w-52 hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_360x.JPG?v=1528041677\"></div><p class=\"uppercase font-bold tracking-wider\"> flours &amp; spice blends </p></div><div class=\"col-span-4 xl:col-span-1 space-y-3\"><div class=\"overflow-hidden\"><img class=\"object-cover h-52 w-52 hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_360x.JPG?v=1527878691\"></div><p class=\"uppercase font-bold tracking-wider\">whole grains</p></div><div class=\"col-span-4 xl:col-span-1 space-y-3\"><div class=\"overflow-hidden\"><img class=\"object-cover h-52 w-52 hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_360x.JPG?v=1527969701\"></div><p class=\"uppercase font-bold tracking-wider\">special orders</p></div></div></div></div>", 1);
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-12 gap-4 place-items-center overflow-hidden\"><div class=\"col-span-12 xl:col-span-6\"><div class=\"space-y-7\"><hr class=\"w-24 border-4\"><h1 class=\"text-4xl\">Featured Product</h1><h2 class=\"uppercase font-bold text-gray-400\">berbere</h2><h3 class=\"max-w-sm tracking-wider text-justify\"> The rich red of our berbere speaks to the originality of our recipe. Our unique blend makes it so that the berbere is first mild to the taste, exploding with tart flavor as it settles into your taste buds. </h3><button class=\"px-4 py-4 uppercase tracking-widest border-4 border-black text-sm\"> shop now </button></div></div><div class=\"col-span-12 xl:col-span-6 w-full h-[775px] overflow-hidden\"><img class=\"object-cover w-full\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/4.1FeaturedProduct.JPG?v=1615922779\"></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div>another section</div> ")], 2112
-  /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" OUR STORY SECTION "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" processing section "), _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" cleaning process "), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" our products "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" featured products "), _hoisted_6], 64
+  /* STABLE_FRAGMENT */
   );
 }
 
@@ -19965,15 +20006,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_images_ARKI_AGRO_SLIDESHOW_PHOTOS_6_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg */ "./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg");
+/* harmony import */ var _assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg */ "./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg");
 // Imports
 
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_SLIDESHOW_PHOTOS_6_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n.landing {\n  min-height: 100vh;\n  /* background: url(\"https://images.pexels.com/photos/4199064/pexels-photo-4199064.jpeg\"); */\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n.big-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.intro {\n  position: fixed;\n  top: 0;\n  left: 0;\n  background: #fff;\n  width: 100%;\n  height: 100%;\n}\n.slider {\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* background: rgb(251, 251, 251); */\n  background: #0f2c48;\n  width: 100%;\n  height: 100%;\n  transform: translateY(100%);\n}\n.intro-text {\n  color: #123456;\n}\n.hide {\n  background: #fff;\n  overflow: hidden;\n}\n.hide span {\n  transform: translateY(100%);\n  display: inline-block;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  /* min-height: 100vh; */\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20271,21 +20312,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg?56dcbb7527fdce783a2221ad79353a43");
-
-/***/ }),
-
-/***/ "./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg":
-/*!******************************************************************!*\
-  !*** ./resources/assets/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_SLIDESHOW_PHOTOS_6.jpg?f6c42b79ff6fef5c7dc86de34166d941");
 
 /***/ }),
 
@@ -26713,7 +26739,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=6a63e488 */ "./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488");
-/* harmony import */ var _Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js");
+/* harmony import */ var _Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js */ "./resources/js/Pages/Home.vue?vue&type=script&lang=js");
 /* harmony import */ var _Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&id=6a63e488&lang=css */ "./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css");
 /* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
@@ -26723,7 +26749,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -26792,18 +26818,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js":
-/*!************************************************************************!*\
-  !*** ./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js ***!
-  \************************************************************************/
+/***/ "./resources/js/Pages/Home.vue?vue&type=script&lang=js":
+/*!*************************************************************!*\
+  !*** ./resources/js/Pages/Home.vue?vue&type=script&lang=js ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&setup=true&lang=js");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=script&lang=js");
  
 
 /***/ }),
