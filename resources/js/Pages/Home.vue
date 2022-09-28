@@ -70,7 +70,16 @@
         >
           <p>flour & spice blends</p>
           <button
-            class="py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest"
+            class="
+              py-4
+              px-6
+              uppercase
+              bg-[#000]
+              text-white
+              border-2 border-white
+              text-xs
+              tracking-widest
+            "
           >
             buy
           </button>
@@ -89,7 +98,16 @@
         >
           <p>whole grains</p>
           <button
-            class="py-4 px-6 uppercase  bg-[#000] text-white border-2 border-white text-xs tracking-widest"
+            class="
+              py-4
+              px-6
+              uppercase
+              bg-[#000]
+              text-white
+              border-2 border-white
+              text-xs
+              tracking-widest
+            "
           >
             buy
           </button>
@@ -108,7 +126,16 @@
         >
           <p>beans & peas</p>
           <button
-            class="py-4 px-6 uppercase  bg-[#000] text-white border-2 border-white text-xs tracking-widest"
+            class="
+              py-4
+              px-6
+              uppercase
+              bg-[#000]
+              text-white
+              border-2 border-white
+              text-xs
+              tracking-widest
+            "
           >
             buy
           </button>
@@ -127,7 +154,16 @@
         >
           <p>special orders</p>
           <button
-            class="py-4 px-6 uppercase  bg-[#000] text-white border-2 border-white text-xs tracking-widest"
+            class="
+              py-4
+              px-6
+              uppercase
+              bg-[#000]
+              text-white
+              border-2 border-white
+              text-xs
+              tracking-widest
+            "
           >
             buy
           </button>
@@ -352,6 +388,38 @@
       />
     </div>
   </div>
+
+  <!-- address -->
+  <div
+    class="map-img h-[600px] flex items-center justify-center xl:justify-start"
+  >
+    <div
+      class="
+        px-20 py-7
+        bg-[#372727]
+        text-white
+        max-w-lg
+        xl:ml-28
+        space-y-9
+        text-center 
+      "
+    >
+      <h1 class="text-2xl">Arki Foods</h1>
+      <div class="text-[#908980]">
+        <p>Nifas Silk Lafto Sub-City</p>
+        <p>Woreda 03</p>
+        <p>House #435</p>
+        <p>Addis Ababa, Ethiopia</p>
+      </div>
+      <div class="text-[#908980]">
+        <p>Mon - Fri, 8am - 6pm</p>
+        <p>Saturday, 8.30am - 2pm</p>
+      </div>
+      <div class="py-3 text-[#cf7a03]">
+        <a href="#" class="underline">Get Directions</a>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -362,6 +430,11 @@ export default {};
 .background-img {
   /* min-height: 100vh; */
   background: url("@/../assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg");
+  background-size: cover;
+}
+
+.map-img {
+  background: url("https://cdn.shopify.com/s/files/1/0099/8847/2889/files/antique-binoculars_1296x.jpg");
   background-size: cover;
 }
 </style>
