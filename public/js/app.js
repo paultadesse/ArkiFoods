@@ -19502,7 +19502,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony import */ var _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout.vue */ "./resources/js/Shared/Layout.vue");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  layout: _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+});
 
 /***/ }),
 
@@ -19611,93 +19615,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-/* harmony import */ var _assets_logos_ARKI_AGRO_LOGO_BLACK_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/logos/ARKI_AGRO_LOGO_BLACK.png */ "./resources/assets/logos/ARKI_AGRO_LOGO_BLACK.png");
-
 
 var _hoisted_1 = {
-  "class": "background-img text-wshite"
-};
-var _hoisted_2 = {
-  "class": "px-44 py-24"
+  "class": "background-img h-full w-full bg-cover bg-fixed"
 };
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "bg-white bg-opacity-90 flex justify-between items-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "py-12 px-7 tracking-wider text-2xl font-bold"
-}, " Flours & Spice Blends "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "h-40 w-40 rounsded-full mx-auto",
-  src: _assets_logos_ARKI_AGRO_LOGO_BLACK_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-  alt: ""
-})])], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"pt-16 xl:pt-96\"><div class=\"h-1/3 flex justify-center items-end\"><div class=\"flex flex-col items-center justify-center space-y-4 text-center bg-[#372727] w-full mt-48 pb-12\"><div class=\"py-12\"><h1 class=\"text-[#eae7e0] text-5xl\">Flours &amp; Spice Blends</h1></div><div class=\"flex xl:flex-row flex-col space-y-2 xl:space-y-0 xl:space-x-4\"><select name=\"\" id=\"\" class=\"w-64 p-6 font-bold bg-[#2d1e1e] text-[#908980]\"><option value=\"hello\">Filter</option><option value=\"hello\">Filter</option><option value=\"hello\">Filter</option><option value=\"hello\">Filter</option></select><select name=\"\" id=\"\" class=\"w-64 p-6 font-bold bg-[#2d1e1e] text-[#908980]\"><option value=\"hello\">Best Selling</option><option value=\"hello\">Best Selling</option><option value=\"hello\">Best Selling</option><option value=\"hello\">Best Selling</option></select></div><div class=\"py-12\"><div class=\"grid grid-cols-12 gap-4\"><div class=\"col-span-12 xl:col-span-6 bg-black p-16\"><div class=\"overflow-hidden\"><img class=\"object-cover mx-auto h-[420px] w-[280px] hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/products/6.7.1_Berbere_540x.JPG?v=1528045470\"></div><div class=\"flex flex-col justify-center bg-black pt-8 space-y-3\"><p class=\"text-2xl tracking-wider text-[#eae7e0]\"> Berbere </p><p class=\"text-[#eae7e0] text-xs\">From Birr 70</p></div></div><div class=\"col-span-12 xl:col-span-6 bg-black p-16\"><div class=\"overflow-hidden\"><img class=\"object-cover mx-auto h-[420px] w-[280px] hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/products/6.8.1_Mitmita_540x.JPG?v=1528045511\"></div><div class=\"flex flex-col justify-center bg-black pt-8 space-y-3\"><p class=\"text-2xl tracking-wider text-[#eae7e0]\"> Mitmita </p><p class=\"text-[#eae7e0] text-xs\">From Birr 100</p></div></div></div></div></div></div></div>", 1);
 
-var _hoisted_4 = {
-  "class": "grid grid-cols-12 gap-4 py-2"
-};
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "relative pb-full bg-white bg-opacity-70 xs:h-auto xs:square animate__animated animate__fadeIn animate_delay-2s"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "absolute h-full w-full rounsded-full object-cover p-12",
-  src: "https://cdn.shopify.com/s/files/1/0099/8847/2889/products/8.4.1_Fendisha_2a8c76f0-db15-4855-b9d1-88e6b77e0616_540x.JPG?v=1528046761",
-  alt: "artist photo",
-  srcset: ""
-})], -1
-/* HOISTED */
-);
-
-var _hoisted_6 = {
-  "class": "bg-white border-t p-12 py-2 text-sm tracking-widest animate__animated animate__fadeInLeft"
-};
-var _hoisted_7 = {
-  "class": "flex justify-between items-center py-4"
-};
-var _hoisted_8 = {
-  "class": "space-y-2"
-};
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "text-xl font-bold"
-}, "Fendisha", -1
-/* HOISTED */
-);
-
-var _hoisted_10 = {
-  "class": ""
-};
-var _hoisted_11 = {
-  "class": "text-xl tracking-wider font-bold"
-};
-
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-xs text-gray-500"
-}, "Birr", -1
-/* HOISTED */
-);
-
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex items-center justify-between"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "bg-[#12/3456] ps-2 rounded"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-  "class": "bg-black px-4 py-2 text-white rounded text-xs tracking-wide"
-}, " Add to cart ")])], -1
-/* HOISTED */
-);
-
+var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(8, function (i) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-      "class": "col-span-3 shadow hover:bg-gray-50 cursor-pointer",
-      key: i
-    }, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <p class=\"text-gray-400 tracking-wide text-sm\">Price</p> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <hr /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(70 + i * 7) + " ", 1
-    /* TEXT */
-    ), _hoisted_12])])]), _hoisted_13])])]);
-  }), 64
-  /* STABLE_FRAGMENT */
-  ))])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
@@ -20067,17 +19994,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_images_ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2.jpg */ "./resources/assets/images/ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2.jpg");
 // Imports
 
-
-
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  min-height: 100vh;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  /* min-height: 100vh; */\n  background-image: url(\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends.JPG?v=1528041677\");\n  background-size: cover;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20408,21 +20329,6 @@ module.exports = deepmerge_1;
 
 /***/ }),
 
-/***/ "./resources/assets/images/ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2.jpg":
-/*!**************************************************************************!*\
-  !*** ./resources/assets/images/ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2.jpg ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2.jpg?33c479d73bdd70aa6b5c20fc8ecc7037");
-
-/***/ }),
-
 /***/ "./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg":
 /*!*******************************************************************!*\
   !*** ./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg ***!
@@ -20435,21 +20341,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg?56dcbb7527fdce783a2221ad79353a43");
-
-/***/ }),
-
-/***/ "./resources/assets/logos/ARKI_AGRO_LOGO_BLACK.png":
-/*!*********************************************************!*\
-  !*** ./resources/assets/logos/ARKI_AGRO_LOGO_BLACK.png ***!
-  \*********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ARKI_AGRO_LOGO_BLACK.png?529f2afa9992e78023fefeeba12dbdca");
 
 /***/ }),
 

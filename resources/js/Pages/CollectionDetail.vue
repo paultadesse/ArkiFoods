@@ -1,78 +1,87 @@
 <template>
-  <div class="background-img text-wshite">
-    <div class="px-44 py-24">
-      <div class="bg-white bg-opacity-90 flex justify-between items-center">
-        <h1 class="py-12 px-7 tracking-wider text-2xl font-bold">
-          Flours & Spice Blends
-        </h1>
-        <div>
-          <img
-            class="h-40 w-40 rounsded-full mx-auto"
-            src="@/../assets/logos/ARKI_AGRO_LOGO_BLACK.png"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="grid grid-cols-12 gap-4 py-2">
+  <div class="background-img h-full w-full bg-cover bg-fixed">
+    <div class="pt-16 xl:pt-96">
+      <div class="h-1/3 flex justify-center items-end">
         <div
-          class="col-span-3 shadow hover:bg-gray-50 cursor-pointer"
-          v-for="i in 8"
-          :key="i"
+          class="
+            flex flex-col
+            items-center
+            justify-center
+            space-y-4
+            text-center
+            bg-[#372727]
+            w-full
+            mt-48
+            pb-12
+          "
         >
-          <div
-            class="
-              relative
-              pb-full
-              bg-white bg-opacity-70
-              xs:h-auto xs:square
-              animate__animated animate__fadeIn animate_delay-2s
-            "
-          >
-            <img
-              class="absolute h-full w-full rounsded-full object-cover p-12"
-              src="https://cdn.shopify.com/s/files/1/0099/8847/2889/products/8.4.1_Fendisha_2a8c76f0-db15-4855-b9d1-88e6b77e0616_540x.JPG?v=1528046761"
-              alt="artist photo"
-              srcset=""
-            />
+          <div class="py-12">
+            <h1 class="text-[#eae7e0] text-5xl">Flours & Spice Blends</h1>
           </div>
-          <div
-            class="
-              bg-white
-              border-t
-              p-12
-              py-2
-              text-sm
-              tracking-widest
-              animate__animated animate__fadeInLeft
-            "
-          >
-            <div class="flex justify-between items-center py-4">
-              <div class="space-y-2">
-                <h1 class="text-xl font-bold">Fendisha</h1>
-                <div class="">
-                  <!-- <p class="text-gray-400 tracking-wide text-sm">Price</p> -->
-                  <!-- <hr /> -->
-                  <p class="text-xl tracking-wider font-bold">
-                    {{ 70 + i * 7 }}
-                    <span class="text-xs text-gray-500">Birr</span>
+          <div class="flex xl:flex-row flex-col space-y-2 xl:space-y-0 xl:space-x-4">
+            <select
+              name=""
+              id=""
+              class="w-64 p-6 font-bold bg-[#2d1e1e] text-[#908980]"
+            >
+              <option value="hello">Filter</option>
+              <option value="hello">Filter</option>
+              <option value="hello">Filter</option>
+              <option value="hello">Filter</option>
+            </select>
+            <select
+              name=""
+              id=""
+              class="w-64 p-6 font-bold bg-[#2d1e1e] text-[#908980]"
+            >
+              <option value="hello">Best Selling</option>
+              <option value="hello">Best Selling</option>
+              <option value="hello">Best Selling</option>
+              <option value="hello">Best Selling</option>
+            </select>
+          </div>
+          <div class="py-12">
+            <div class="grid grid-cols-12 gap-4">
+              <div class="col-span-12 xl:col-span-6 bg-black p-16">
+                <div class="overflow-hidden">
+                  <img
+                    class="
+                      object-cover mx-auto
+                      h-[420px]
+                      w-[280px]
+                      hover:scale-105
+                      duration-300
+                    "
+                    alt="process"
+                    src="https://cdn.shopify.com/s/files/1/0099/8847/2889/products/6.7.1_Berbere_540x.JPG?v=1528045470"
+                  />
+                </div>
+                <div class="flex flex-col justify-center bg-black pt-8 space-y-3">
+                  <p class="text-2xl tracking-wider text-[#eae7e0]">
+                    Berbere
                   </p>
+                  <p class="text-[#eae7e0] text-xs">From Birr 70</p>
                 </div>
               </div>
-              <div class="flex items-center justify-between">
-                <div class="bg-[#12/3456] ps-2 rounded">
-                  <button
+              <div class="col-span-12 xl:col-span-6 bg-black p-16">
+                <div class="overflow-hidden">
+                  <img
                     class="
-                      bg-black
-                      px-4
-                      py-2
-                      text-white
-                      rounded
-                      text-xs
-                      tracking-wide
+                      object-cover mx-auto
+                      h-[420px]
+                      w-[280px]
+                      hover:scale-105
+                      duration-300
                     "
-                  >
-                    Add to cart
-                  </button>
+                    alt="process"
+                    src="https://cdn.shopify.com/s/files/1/0099/8847/2889/products/6.8.1_Mitmita_540x.JPG?v=1528045511"
+                  />
+                </div>
+                <div class="flex flex-col justify-center bg-black pt-8 space-y-3">
+                  <p class="text-2xl tracking-wider text-[#eae7e0]">
+                    Mitmita
+                  </p>
+                  <p class="text-[#eae7e0] text-xs">From Birr 100</p>
                 </div>
               </div>
             </div>
@@ -84,13 +93,16 @@
 </template>
 
 <script>
-export default {};
+import Layout from "../Shared/Layout.vue";
+export default {
+  layout: Layout,
+};
 </script>
 
 <style>
 .background-img {
-  min-height: 100vh;
-  background: url("@/../assets/images/ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2.jpg");
+  /* min-height: 100vh; */
+  background-image: url("https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends.JPG?v=1528041677");
   background-size: cover;
 }
 </style>
