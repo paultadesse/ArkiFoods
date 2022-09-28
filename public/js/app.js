@@ -19517,7 +19517,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony import */ var _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout.vue */ "./resources/js/Shared/Layout.vue");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  layout: _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+});
 
 /***/ }),
 
@@ -19712,14 +19716,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "background-img text-wshite"
+  "class": "bg-[#372727]"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-44 py-24 bg-bslack bg-opascity-75\"><div class=\"grid grid-cols-12 gasp-4 place-items-center\"><div class=\"col-span-12 flex items-center justify-between p-24 bg-white w-full\"><p class=\"uppercase tracking-wider text-3xl font-bold\"> All collections </p><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-10 h-10 hover:scale-110 delay-500 duration-150 cursor-pointer\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3\"></path></svg></div><div class=\"col-span-6 w-full h-full bg-white p-12 bg-opacity-75\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\" alt=\"\"></div><div class=\"bg-white col-span-6 w-full h-full flex items-center px-7\"><div class=\"space-y-4\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl\"> Flours and spice blends </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"bg-white col-span-6 px-7 w-full h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl\"> Beans &amp; peas </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 bg-white bg-opacity-75 w-full h-full p-12 bg-[#123s456]\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans_460x.JPG?v=1527878711\" alt=\"\"></div><div class=\"col-span-6 p-12 bg-opacity-75 bg-white w-full h-full\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\" alt=\"\"></div><div class=\"col-span-6 bg-white w-full h-full px-7 flex items-center\"><div class=\"space-y-7\"><p class=\"text-4xl font-semibold tracking-wider first-letter:text-6xl\"> whole grains </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 bg-white w-full px-7 h-full flex items-center justify-end\"><div class=\"space-y-7\"><p class=\"text-4xl text-end font-semibold tracking-wider first-letter:text-6xl\"> special orders </p><p class=\"text-justify font-light tracking-wide\"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cum tempora! Vitae natus, mollitia quae sed cumque repellendus quo facere nihil voluptatem magnam quam ratione, ipsum assumenda corrupti enim velit? </p></div></div><div class=\"col-span-6 bg-white bg-opacity-75 h-full w-full p-12 bg-[#123s456]\"><img class=\"shadow-2xl mx-auto h-80 w-80 object-cover hover:scale-110 delay-75 duration-700 rounded-full\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\" alt=\"\"></div></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"py-12\"><h1 class=\"text-center text-5xl text-[#eae7e0]\">All Collections</h1></div><div class=\"flex justify-center items-center pb-12\"><div class=\"grid grid-cols-12 gap-4\"><div class=\"col-span-12 xl:col-span-6\"><div class=\"overflow-hidden\"><img class=\"object-cover h-[320px] w-[480px] hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_460x.JPG?v=1528041677\"></div><div class=\"flex justify-center bg-black p-8\"><p class=\"text-3xl tracking-wider text-[#eae7e0]\">Flours &amp; Spice Blends</p></div></div><div class=\"col-span-12 xl:col-span-6\"><div class=\"overflow-hidden\"><img class=\"object-cover h-[320px] w-[480px] hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans.JPG?v=1527878711\"></div><div class=\"flex justify-center bg-black p-8\"><p class=\"text-3xl tracking-wider text-[#eae7e0]\">Beans &amp; Peas</p></div></div><div class=\"col-span-12 xl:col-span-6\"><div class=\"overflow-hidden\"><img class=\"object-cover h-[320px] w-[480px] hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_460x.JPG?v=1527878691\"></div><div class=\"flex justify-center bg-black p-8\"><p class=\"text-3xl tracking-wider text-[#eae7e0]\">Whole Grains</p></div></div><div class=\"col-span-12 xl:col-span-6\"><div class=\"overflow-hidden\"><img class=\"object-cover h-[320px] w-[480px] hover:scale-105 duration-300\" alt=\"process\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_460x.JPG?v=1527969701\"></div><div class=\"flex justify-center bg-black p-8\"><p class=\"text-3xl tracking-wider text-[#eae7e0]\">Special Orders</p></div></div></div></div>", 2);
 
-var _hoisted_3 = [_hoisted_2];
+var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
 }
 
 /***/ }),
@@ -20072,36 +20076,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_FEATURED_PRODUCTS_PHOTOS_2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  min-height: 100vh;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg */ "./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg");
-// Imports
-
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  min-height: 100vh;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n", ""]);
 // Exports
@@ -26453,36 +26427,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css ***!
@@ -26888,16 +26832,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Collections_vue_vue_type_template_id_ea73a808__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Collections.vue?vue&type=template&id=ea73a808 */ "./resources/js/Pages/Collections.vue?vue&type=template&id=ea73a808");
 /* harmony import */ var _Collections_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Collections.vue?vue&type=script&lang=js */ "./resources/js/Pages/Collections.vue?vue&type=script&lang=js");
-/* harmony import */ var _Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css */ "./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css");
-/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-
-
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Collections_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Collections_vue_vue_type_template_id_ea73a808__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Collections.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Collections_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Collections_vue_vue_type_template_id_ea73a808__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Collections.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -27165,19 +27106,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_CollectionDetail_vue_vue_type_style_index_0_id_6bb70ab8_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./CollectionDetail.vue?vue&type=style&index=0&id=6bb70ab8&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/CollectionDetail.vue?vue&type=style&index=0&id=6bb70ab8&lang=css");
-
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css ***!
-  \****************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Collections_vue_vue_type_style_index_0_id_ea73a808_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Collections.vue?vue&type=style&index=0&id=ea73a808&lang=css");
 
 
 /***/ }),
