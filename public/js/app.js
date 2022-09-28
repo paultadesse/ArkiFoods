@@ -19551,7 +19551,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony import */ var _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout.vue */ "./resources/js/Shared/Layout.vue");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  layout: _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+});
 
 /***/ }),
 
@@ -19844,14 +19848,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "px-44 py-24"
+  "class": "background-img h-full w-full bg-cover bg-fixed"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12\"><h1 class=\"uppercase tracking-wider text-3xl font-bold\">Our story</h1></div><div class=\"flex items-center py-16\"><div class=\"flex-shrink-0 bg-[#1d23456]\" style=\"background-image:url(&#39;https://cor.ca/wp-content/uploads/2022/07/Ingredients.jpeg&#39;);\"><img class=\"px-12 py-12\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our founder </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> In the 1970s, Tejnesh (Emmodish) Benti was the head researcher in the Experimental Kitchen department of the Ethiopian Nutrition Institute. Her team’s lab work refined traditional recipes, tweaking ingredients and cooking practices to naturally enhance the nutritional value of Ethiopian staple foods. The Institute used these findings as educational resources for its public initiatives, including maternal health and school feeding programs. Emmodish took her expertise into her own kitchen when the Institute was dissolved in the early 1990s. This was when her passion for Ethiopian cuisine really blossomed. She created her own spice blends that she sifted into staple dishes, making her already nutritiously rich meals sing with flavor. </p></div></div><div class=\"flex flex-row-reverse items-center py-16\"><div class=\"flex-shrink-0 w-3/4\" style=\"background-image:url(&#39;https://www.chatelaine.com/wp-content/uploads/2015/01/Spices-iStock-660x660.jpg&#39;);\"><img class=\"p-24 bg-[#123s456]\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845\" alt=\"\"></div><div class=\"px-12 space-y-7\"><p class=\"first-letter:uppercase text-lg tracking-wider font-bold text-[#123456] uppercase\"> our company </p><hr class=\"w-20 border-2 border-[#123456]\"><p class=\"text-justify tracking-wide font-light first-letter:text-3xl leading-7\"> Before she founded Arki, Emmodish began to notice that as Addis Ababa’s population grew, fewer and fewer people had the open air and space necessary to prepare traditional flours &amp; spice blends in their own homes. Increasingly, she would get requests from extended family to prepare their year’s provision of berbere and shiro. Her recipes had always been popular but it was then that demand for them grew. The idea for Arki sparked then and developed steadily, along with Emmodish’s excitement that she could share her four decades in nutrition science and original recipes with a wider audience. It was in this way that Emmodish founded Arki as a labor of love, her offering to everyone who wants to cook clean and eat meals that sing with flavor. </p></div></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"pt-96\"><div class=\"h-1/3 flex justify-center items-end\"><div class=\"flex flex-col items-center justify-center space-y-4 text-center bg-[#372727] w-full mt-48\"><div class=\"text-left p-8\"><div class=\"flex-shrink-0 space-y-12\"><hr class=\"w-24 border-4 border-[#cf7a03]\"><h1 class=\"text-5xl text-[#eae7e0]\">Our Story</h1><h2 class=\"text-3xl text-[#fff2cc]\">Our Founder</h2><img src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.2EmmodishHeadshot_large.JPG?v=1527866265\" alt=\"\"></div><div class=\"py-2\"><p class=\"max-w-xl font-light text-[#908980] tracking-wider text-lg text-justify\"> EmmodishIn the 1970s, Tejnesh (Emmodish) Benti was the head researcher in the Experimental Kitchen department of the Ethiopian Nutrition Institute. Her team’s lab work refined traditional recipes, tweaking ingredients and cooking practices to naturally enhance the nutritional value of Ethiopian staple foods. The Institute used these findings as educational resources for its public initiatives, including maternal health and school feeding programs. Emmodish took her expertise into her own kitchen when the Institute was dissolved in the early 1990s. This was when her passion for Ethiopian cuisine really blossomed. She created her own spice blends that she sifted into staple dishes, making her already nutritiously rich meals sing with flavor. </p></div></div><div class=\"text-left p-8\"><div><h2 class=\"text-3xl text-[#fff2cc]\">Our Company</h2><p class=\"max-w-xl py-4 font-light text-[#908980] tracking-wider text-lg text-justify\"> Before she founded Arki, Emmodish began to notice that as Addis Ababa’s population grew, fewer and fewer people had the open air and space necessary to prepare traditional flours &amp; spice blends in their own homes. Increasingly, she would get requests from extended family to prepare their year’s provision of berbere and shiro. Her recipes had always been popular but it was then that demand for them grew. The idea for Arki sparked then and developed steadily, along with Emmodish’s excitement that she could share her four decades in nutrition science and original recipes with a wider audience. It was in this way that Emmodish founded Arki as a labor of love, her offering to everyone who wants to cook clean and eat meals that sing with flavor. </p></div><div><img class=\"h-96\" src=\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845\" alt=\"\"></div></div></div></div></div>", 1);
 
-var _hoisted_5 = [_hoisted_2];
+var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_5);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
@@ -20130,6 +20134,36 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  /* min-height: 100vh; */\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n.map-img {\n  background: url(\"https://cdn.shopify.com/s/files/1/0099/8847/2889/files/antique-binoculars_1296x.jpg\");\n  background-size: cover;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg */ "./resources/assets/images/ARKI_AGRO_RECIPE_IDEAS_PHOTOS.jpg");
+// Imports
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_images_ARKI_AGRO_RECIPE_IDEAS_PHOTOS_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.background-img {\n  /* min-height: 100vh; */\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -26479,6 +26513,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_style_index_0_id_672a12c8_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Story.vue?vue&type=style&index=0&id=672a12c8&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_style_index_0_id_672a12c8_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_style_index_0_id_672a12c8_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -26886,13 +26950,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Story_vue_vue_type_template_id_672a12c8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Story.vue?vue&type=template&id=672a12c8 */ "./resources/js/Pages/Story.vue?vue&type=template&id=672a12c8");
 /* harmony import */ var _Story_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Story.vue?vue&type=script&lang=js */ "./resources/js/Pages/Story.vue?vue&type=script&lang=js");
-/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Story_vue_vue_type_style_index_0_id_672a12c8_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Story.vue?vue&type=style&index=0&id=672a12c8&lang=css */ "./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css");
+/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Story_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Story_vue_vue_type_template_id_672a12c8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Story.vue"]])
+
+
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Story_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Story_vue_vue_type_template_id_672a12c8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Story.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -27124,6 +27191,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_style_index_0_id_6a63e488_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=style&index=0&id=6a63e488&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=css");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_style_index_0_id_672a12c8_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Story.vue?vue&type=style&index=0&id=672a12c8&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=style&index=0&id=672a12c8&lang=css");
 
 
 /***/ }),
