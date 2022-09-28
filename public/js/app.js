@@ -19532,7 +19532,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony import */ var _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Layout.vue */ "./resources/js/Shared/Layout.vue");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  layout: _Shared_Layout_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+});
 
 /***/ }),
 
@@ -19548,6 +19552,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=script&setup=true&lang=js":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=script&setup=true&lang=js ***!
+  \*******************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var __default__ = {};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (/*#__PURE__*/Object.assign(__default__, {
+  name: 'Layout',
+  setup: function setup(__props, _ref) {
+    var expose = _ref.expose;
+    expose();
+    var year = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(function () {
+      return new Date().getFullYear();
+    });
+    var __returned__ = {
+      year: year,
+      computed: vue__WEBPACK_IMPORTED_MODULE_0__.computed
+    };
+    Object.defineProperty(__returned__, '__isScriptSetup', {
+      enumerable: false,
+      value: true
+    });
+    return __returned__;
+  }
+}));
 
 /***/ }),
 
@@ -19692,11 +19732,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-/* harmony import */ var _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/logos/ARKI_AGRO_LOGO_WHITE.png */ "./resources/assets/logos/ARKI_AGRO_LOGO_WHITE.png");
 
 
-
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative background-img h-screen\"><!-- Nav Bar --><div class=\"bg-white py-2\"><div class=\"flex justify-evenly items-center\"><div><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5\"></path></svg></div><div class=\"px-8\"><img class=\"h-20 w-20 rounded-full mx-auto\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"></div><div><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z\"></path></svg></div></div></div><div class=\"absolute bottom-0 w-full bg-black bg-opacity-40 text-white font-bold py-9\"><div class=\"grid grid-cols-12 gap-4 uppercase\"><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>flour &amp; spice blends</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>whole grains</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>beans &amp; peas</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>special orders</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div></div></div></div>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative background-img h-screen\"><!-- Nav Bar --><!-- &lt;div class=&quot;bg-white py-2&quot;&gt;\n      &lt;div class=&quot;flex justify-evenly items-center&quot;&gt;\n        &lt;div&gt;\n          &lt;svg\n            xmlns=&quot;http://www.w3.org/2000/svg&quot;\n            fill=&quot;none&quot;\n            viewBox=&quot;0 0 24 24&quot;\n            stroke-width=&quot;1.5&quot;\n            stroke=&quot;currentColor&quot;\n            class=&quot;w-6 h-6&quot;\n          &gt;\n            &lt;path\n              stroke-linecap=&quot;round&quot;\n              stroke-linejoin=&quot;round&quot;\n              d=&quot;M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5&quot;\n            /&gt;\n          &lt;/svg&gt;\n        &lt;/div&gt;\n        &lt;div class=&quot;px-8&quot;&gt;\n          &lt;img\n            class=&quot;h-20 w-20 rounded-full mx-auto&quot;\n            src=&quot;@/../assets/logos/ARKI_AGRO_LOGO_WHITE.png&quot;\n            alt=&quot;&quot;\n          /&gt;\n        &lt;/div&gt;\n        &lt;div&gt;\n          &lt;svg\n            xmlns=&quot;http://www.w3.org/2000/svg&quot;\n            fill=&quot;none&quot;\n            viewBox=&quot;0 0 24 24&quot;\n            stroke-width=&quot;1.5&quot;\n            stroke=&quot;currentColor&quot;\n            class=&quot;w-6 h-6&quot;\n          &gt;\n            &lt;path\n              stroke-linecap=&quot;round&quot;\n              stroke-linejoin=&quot;round&quot;\n              d=&quot;M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z&quot;\n            /&gt;\n          &lt;/svg&gt;\n        &lt;/div&gt;\n      &lt;/div&gt;\n    &lt;/div&gt; --><div class=\"absolute bottom-0 w-full bg-black bg-opacity-40 text-white font-bold py-9\"><div class=\"grid grid-cols-12 gap-4 uppercase\"><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>flour &amp; spice blends</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>whole grains</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>beans &amp; peas</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div><div class=\"col-span-6 xl:col-span-3 px-12 space-y-4 text-center tracking-wider hover:-translate-y-6 duration-300\"><p>special orders</p><button class=\"py-4 px-6 uppercase bg-[#000] text-white border-2 border-white text-xs tracking-widest\"> buy </button></div></div></div></div>", 1);
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center py-12\"><div class=\"text-center space-y-12\"><hr class=\"w-24 border-4 mx-auto\"><h1 class=\"text-4xl\">Our Story</h1><h2 class=\"max-w-3xl tracking-wider text-justify px-4 xl:px-0\"> Making food is an act of love, and fresh ingredients are the root of the perfect meal. We provide you spice blends, whole grains and beans that are as nutritious as they are flavorful. Choose Arki for food that loves you. </h2><button class=\"px-4 py-4 uppercase tracking-widest border-4 border-black text-sm\"> view more </button></div></div>", 1);
 
@@ -19814,6 +19852,81 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVN
 var _hoisted_5 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_5);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086":
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086 ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/../assets/logos/ARKI_AGRO_LOGO_WHITE.png */ "./resources/assets/logos/ARKI_AGRO_LOGO_WHITE.png");
+
+
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section><!-- Nav Bar --><div class=\"bg-white py-2\"><div class=\"flex justify-evenly items-center\"><div><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5\"></path></svg></div><div class=\"px-8\"><img class=\"h-20 w-20 rounded-full mx-auto\" src=\"" + _assets_logos_ARKI_AGRO_LOGO_WHITE_png__WEBPACK_IMPORTED_MODULE_1__["default"] + "\" alt=\"\"></div><div><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z\"></path></svg></div></div></div></section>", 1);
+
+var _hoisted_2 = {
+  "class": "p-24 flex justify-center bg-[#3c3433]"
+};
+var _hoisted_3 = {
+  "class": ""
+};
+var _hoisted_4 = {
+  "class": "grid grid-cols-12 gap-4 xl:gap-x-20 text-[#c5c5c5]"
+};
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-span-6 xl:col-span-3 space-y-3 uppercase text-sm tracking-wider font-bold\"><p>Home</p><p>story</p><p>products</p><p>lacations</p><p>contact</p></div><div class=\"col-span-6 xl:col-span-3 space-y-3 uppercase text-sm tracking-wider font-bold\"><p>Search</p><p>privacy</p><p>terms</p><p>faqs</p></div><div class=\"col-span-12 xl:col-span-6 w-full space-y-4\"><h1 class=\"uppercase text-xl font-bold\">Sign up for updates</h1><input type=\"text\" placeholder=\"My email address\" class=\"p-4 w-[90%] text-[#908980] outline-none border-white bg-[#3c3433] border-b-2\"><button class=\"uppercase text-sm text-white font-bold\">Ok</button></div>", 3);
+
+var _hoisted_8 = {
+  "class": "col-span-12 w-full pt-16"
+};
+var _hoisted_9 = {
+  "class": "grid grid-cols-12 space-y-4 xl:space-y-0"
+};
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "col-span-12 xl:col-span-4 flex space-x-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "aria-hidden": "true",
+  focusable: "false",
+  role: "presentation",
+  "class": "h-6 w-6 fill-[#c5c5c5]",
+  viewBox: "0 0 8.4 20.6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M8.4 6H5.6V4.1c0-.7.5-.9.8-.9h2V0H5.6C2.5 0 1.8 2.4 1.8 3.9V6H0v3.3h1.8v9.3h3.8V9.3h2.5L8.4 6z"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "aria-hidden": "true",
+  focusable: "false",
+  role: "presentation",
+  "class": "h-6 w-6 fill-[#c5c5c5]",
+  viewBox: "0 0 20 20"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M19.551 4.208q-.815 1.202-1.956 2.038 0 .082.02.255t.02.255q0 1.589-.469 3.179t-1.426 3.036-2.272 2.567-3.158 1.793-3.963.672q-3.301 0-6.031-1.773.571.041.937.041 2.751 0 4.911-1.671-1.284-.02-2.292-.784T2.456 11.85q.346.082.754.082.55 0 1.039-.163-1.365-.285-2.262-1.365T1.09 7.918v-.041q.774.408 1.773.448-.795-.53-1.263-1.396t-.469-1.864q0-1.019.509-1.997 1.487 1.854 3.596 2.924T9.81 7.184q-.143-.509-.143-.897 0-1.63 1.161-2.781t2.832-1.151q.815 0 1.569.326t1.284.917q1.345-.265 2.506-.958-.428 1.386-1.732 2.18 1.243-.163 2.262-.611z"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_11 = {
+  "class": "col-span-12 xl:col-span-8"
+};
+var _hoisted_12 = {
+  "class": "text-sm"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" footer goes here "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_12, "© " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.year) + " ARKIAGRO All rights reserved", 1
+  /* TEXT */
+  )])])])])])])])], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -26788,6 +26901,34 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Shared/Layout.vue":
+/*!****************************************!*\
+  !*** ./resources/js/Shared/Layout.vue ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Layout_vue_vue_type_template_id_6bf30086__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Layout.vue?vue&type=template&id=6bf30086 */ "./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086");
+/* harmony import */ var _Layout_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Shared/Layout.vue?vue&type=script&setup=true&lang=js");
+/* harmony import */ var _home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_home_paul_Desktop_Jobs_ArkiFoods_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Layout_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Layout_vue_vue_type_template_id_6bf30086__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Shared/Layout.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js":
 /*!*************************************************************************!*\
   !*** ./resources/js/Pages/CollectionDetail.vue?vue&type=script&lang=js ***!
@@ -26852,6 +26993,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Shared/Layout.vue?vue&type=script&setup=true&lang=js":
+/*!***************************************************************************!*\
+  !*** ./resources/js/Shared/Layout.vue?vue&type=script&setup=true&lang=js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Layout_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Layout_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Layout.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=script&setup=true&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8":
 /*!*******************************************************************************!*\
   !*** ./resources/js/Pages/CollectionDetail.vue?vue&type=template&id=6bb70ab8 ***!
@@ -26912,6 +27069,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_template_id_672a12c8__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Story_vue_vue_type_template_id_672a12c8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Story.vue?vue&type=template&id=672a12c8 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Story.vue?vue&type=template&id=672a12c8");
+
+
+/***/ }),
+
+/***/ "./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086":
+/*!**********************************************************************!*\
+  !*** ./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086 ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Layout_vue_vue_type_template_id_6bf30086__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Layout_vue_vue_type_template_id_6bf30086__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Layout.vue?vue&type=template&id=6bf30086 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Layout.vue?vue&type=template&id=6bf30086");
 
 
 /***/ }),

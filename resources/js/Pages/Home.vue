@@ -1,7 +1,7 @@
 <template>
   <div class="relative background-img h-screen">
     <!-- Nav Bar -->
-    <div class="bg-white py-2">
+    <!-- <div class="bg-white py-2">
       <div class="flex justify-evenly items-center">
         <div>
           <svg
@@ -43,7 +43,7 @@
           </svg>
         </div>
       </div>
-    </div>
+    </div> -->
     <div
       class="
         absolute
@@ -395,13 +395,14 @@
   >
     <div
       class="
-        px-20 py-7
+        px-20
+        py-7
         bg-[#372727]
         text-white
         max-w-lg
         xl:ml-28
         space-y-9
-        text-center 
+        text-center
       "
     >
       <h1 class="text-2xl">Arki Foods</h1>
@@ -423,7 +424,10 @@
 </template>
 
 <script>
-export default {};
+import Layout from "../Shared/Layout.vue";
+export default {
+  layout: Layout,
+};
 </script>
 
 <style>
