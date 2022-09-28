@@ -1,7 +1,7 @@
 <template>
   <section>
     <!-- Nav Bar -->
-    <div class="bg-white py-2">
+    <div class="bg-[#fcf8f0] py-2">
       <div class="flex justify-evenly items-center">
         <div>
           <svg
@@ -61,7 +61,8 @@
               xl:col-span-3
               space-y-3
               uppercase
-              text-sm tracking-wider
+              text-sm
+              tracking-wider
               font-bold
             "
           >
@@ -77,7 +78,8 @@
               xl:col-span-3
               space-y-3
               uppercase
-              text-sm tracking-wider
+              text-sm
+              tracking-wider
               font-bold
             "
           >
@@ -94,7 +96,8 @@
               class="
                 p-4
                 w-[90%]
-                text-[#908980] outline-none
+                text-[#908980]
+                outline-none
                 border-white
                 bg-[#3c3433]
                 border-b-2

@@ -68,20 +68,19 @@
             duration-300
           "
         >
-          <p>flour & spice blends</p>
+          <p class="text-xs xl:text-base">flour & spice blends</p>
           <button
             class="
               py-4
               px-6
               uppercase
-              bg-[#000]
-              text-white
-              border-2 border-white
-              text-xs
+              bg-[#cf7a03]
+              text-white text-xs
               tracking-widest
             "
           >
-            buy
+            <span class="hidden xl:block">buy</span>
+            <span class="block xl:hidden">+</span>
           </button>
         </div>
         <div
@@ -96,20 +95,19 @@
             duration-300
           "
         >
-          <p>whole grains</p>
+          <p class="text-xs xl:text-base">whole grains</p>
           <button
             class="
               py-4
               px-6
               uppercase
-              bg-[#000]
-              text-white
-              border-2 border-white
-              text-xs
+              bg-[#cf7a03]
+              text-white text-xs
               tracking-widest
             "
           >
-            buy
+            <span class="hidden xl:block">buy</span>
+            <span class="block xl:hidden">+</span>
           </button>
         </div>
         <div
@@ -124,20 +122,19 @@
             duration-300
           "
         >
-          <p>beans & peas</p>
+          <p class="text-xs xl:text-base">beans & peas</p>
           <button
             class="
               py-4
               px-6
               uppercase
-              bg-[#000]
-              text-white
-              border-2 border-white
-              text-xs
+              bg-[#cf7a03]
+              text-white text-xs
               tracking-widest
             "
           >
-            buy
+            <span class="hidden xl:block">buy</span>
+            <span class="block xl:hidden">+</span>
           </button>
         </div>
         <div
@@ -152,31 +149,30 @@
             duration-300
           "
         >
-          <p>special orders</p>
+          <p class="text-xs xl:text-base">special orders</p>
           <button
             class="
               py-4
               px-6
               uppercase
-              bg-[#000]
-              text-white
-              border-2 border-white
-              text-xs
+              bg-[#cf7a03]
+              text-white text-xs
               tracking-widest
             "
           >
-            buy
+            <span class="hidden xl:block">buy</span>
+            <span class="block xl:hidden">+</span>
           </button>
         </div>
       </div>
     </div>
   </div>
   <!-- OUR STORY SECTION -->
-  <div class="flex justify-center py-12">
+  <div class="flex justify-center py-12 bg-[#372727]">
     <div class="text-center space-y-12">
-      <hr class="w-24 border-4 mx-auto" />
-      <h1 class="text-4xl">Our Story</h1>
-      <h2 class="max-w-3xl tracking-wider text-justify px-4 xl:px-0">
+      <hr class="w-24 border-4 border-[#cf7a03] mx-auto" />
+      <h1 class="text-4xl text-white">Our Story</h1>
+      <h2 class="max-w-3xl tracking-wider px-4 xl:px-0 text-white">
         Making food is an act of love, and fresh ingredients are the root of the
         perfect meal. We provide you spice blends, whole grains and beans that
         are as nutritious as they are flavorful. Choose Arki for food that loves
@@ -188,8 +184,8 @@
           py-4
           uppercase
           tracking-widest
-          border-4 border-black
-          text-sm
+          border-4 border-[#cf7a03]
+          text-[#cf7a03] text-sm
         "
       >
         view more
@@ -287,11 +283,11 @@
     </div>
   </div>
   <!-- cleaning process -->
-  <div class="flex justify-center py-12">
+  <div class="flex justify-center py-12 bg-[#a66000] text-white">
     <div class="text-center space-y-12">
       <!-- <hr class="w-24 border-4 mx-auto" /> -->
       <h1 class="text-4xl">Our Cleaning Process</h1>
-      <h2 class="max-w-2xl tracking-wider text-justify px-4 xl:px-0">
+      <h2 class="max-w-2xl tracking-wider px-4 xl:px-0">
         Our philosophy is that clean ingredients are the essence of nutritional
         value and taste. We first pick out foreign matter by hand and then with
         a winnowing tray and sieve. We then wash our product twice to remove any
@@ -303,7 +299,7 @@
   </div>
 
   <!-- our products -->
-  <div class="flex justify-center py-12 bg-gray-50">
+  <div class="flex justify-center py-24 bg-[#372727] text-white">
     <div class="text-center space-y-12">
       <!-- <hr class="w-24 border-4 mx-auto" /> -->
       <h1 class="text-4xl">Our Products</h1>
@@ -355,13 +351,21 @@
   </div>
 
   <!-- featured products -->
-  <div class="grid grid-cols-12 gap-4 place-items-center overflow-hidden">
+  <div
+    class="
+      grid grid-cols-12
+      gap-4
+      place-items-center
+      overflow-hidden
+      bg-[#493636]
+    "
+  >
     <div class="col-span-12 xl:col-span-6">
       <div class="space-y-7">
-        <hr class="w-24 border-4" />
-        <h1 class="text-4xl">Featured Product</h1>
-        <h2 class="uppercase font-bold text-gray-400">berbere</h2>
-        <h3 class="max-w-sm tracking-wider text-justify">
+        <hr class="w-24 border-4 border-[#cf7a03]" />
+        <h1 class="text-4xl text-[#eae7e0]">Featured Product</h1>
+        <h2 class="uppercase font-bold text-[#908980]">berbere</h2>
+        <h3 class="max-w-sm tracking-wider text-justify text-[#908980]">
           The rich red of our berbere speaks to the originality of our recipe.
           Our unique blend makes it so that the berbere is first mild to the
           taste, exploding with tart flavor as it settles into your taste buds.
@@ -372,8 +376,8 @@
             py-4
             uppercase
             tracking-widest
-            border-4 border-black
-            text-sm
+            border-4 border-[#cf7a03]
+            text-[#cf7a03] text-sm
           "
         >
           shop now
