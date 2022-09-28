@@ -18,14 +18,18 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 
-Route::get('/story', function(){
+Route::get('/story', function () {
     return Inertia::render('Story');
 });
 
-Route::get('/collections', function(){
+Route::get('/collections', function () {
     return Inertia::render('Collections');
 });
 
-Route::get('/collection-detail', function(){
+Route::get('/collection-detail', function () {
     return Inertia::render('CollectionDetail');
+});
+
+Route::get('/contact-us', function () {
+    return Inertia::render('ContactUs');
 });

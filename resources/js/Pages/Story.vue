@@ -1,6 +1,6 @@
 <template>
   <div class="background-img h-full w-full bg-cover bg-fixed">
-    <div class="pt-96">
+    <div class="pt-16 xl:pt-96">
       <div class="h-1/3 flex justify-center items-end">
         <div
           class="
@@ -81,7 +81,7 @@
             </div>
             <div>
               <img
-                class="h-96"
+                class="xl:h-96"
                 src="https://cdn.shopify.com/s/files/1/0099/8847/2889/files/5.4OurStory-Header_1024x1024.JPG?v=1527866845"
                 alt=""
               />
