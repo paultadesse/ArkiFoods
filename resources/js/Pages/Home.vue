@@ -312,7 +312,8 @@
               src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans.JPG?v=1527878711"
             />
           </div>
-          <p class="uppercase font-bold tracking-wider">beans & peas</p>
+          <!-- <p class="uppercase font-bold tracking-wider">beans & peas</p> -->
+          <p class="uppercase font-bold tracking-wider">product 1</p>
         </div>
         <div class="col-span-4 xl:col-span-1 space-y-3">
           <div class="overflow-hidden">
@@ -322,9 +323,10 @@
               src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.3Spice_Blends_360x.JPG?v=1528041677"
             />
           </div>
-          <p class="uppercase font-bold tracking-wider">
+          <!-- <p class="uppercase font-bold tracking-wider">
             flours & spice blends
-          </p>
+          </p> -->
+          <p class="uppercase font-bold tracking-wider">product 2</p>
         </div>
         <div class="col-span-4 xl:col-span-1 space-y-3">
           <div class="overflow-hidden">
@@ -334,7 +336,8 @@
               src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.2Whole_Grains_360x.JPG?v=1527878691"
             />
           </div>
-          <p class="uppercase font-bold tracking-wider">whole grains</p>
+          <!-- <p class="uppercase font-bold tracking-wider">whole grains</p> -->
+          <p class="uppercase font-bold tracking-wider">product 3</p>
         </div>
         <div class="col-span-4 xl:col-span-1 space-y-3">
           <div class="overflow-hidden">
@@ -344,7 +347,41 @@
               src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/9.1.1_Mulu_Kocho_360x.JPG?v=1527969701"
             />
           </div>
-          <p class="uppercase font-bold tracking-wider">special orders</p>
+          <!-- <p class="uppercase font-bold tracking-wider">special orders</p> -->
+          <p class="uppercase font-bold tracking-wider">product 4</p>
+        </div>
+        <div class="col-span-4 xl:col-span-1 space-y-3">
+          <div class="overflow-hidden">
+            <img
+              class="object-cover h-52 w-52 hover:scale-105 duration-300"
+              alt="process"
+              src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans.JPG?v=1527878711"
+            />
+          </div>
+          <!-- <p class="uppercase font-bold tracking-wider">beans & peas</p> -->
+          <p class="uppercase font-bold tracking-wider">product 5</p>
+        </div>
+        <div class="col-span-4 xl:col-span-1 space-y-3">
+          <div class="overflow-hidden">
+            <img
+              class="object-cover h-52 w-52 hover:scale-105 duration-300"
+              alt="process"
+              src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans.JPG?v=1527878711"
+            />
+          </div>
+          <!-- <p class="uppercase font-bold tracking-wider">beans & peas</p> -->
+          <p class="uppercase font-bold tracking-wider">product 6</p>
+        </div>
+        <div class="col-span-4 xl:col-span-1 space-y-3">
+          <div class="overflow-hidden">
+            <img
+              class="object-cover h-52 w-52 hover:scale-105 duration-300"
+              alt="process"
+              src="https://cdn.shopify.com/s/files/1/0099/8847/2889/collections/3.4Peas_Beans.JPG?v=1527878711"
+            />
+          </div>
+          <!-- <p class="uppercase font-bold tracking-wider">beans & peas</p> -->
+          <p class="uppercase font-bold tracking-wider">product 7</p>
         </div>
       </div>
     </div>
@@ -417,8 +454,8 @@
         <p>Addis Ababa, Ethiopia</p>
       </div>
       <div class="text-[#908980]">
-        <p>Mon - Fri, 8am - 6pm</p>
-        <p>Saturday, 8.30am - 2pm</p>
+        <p>Mon - Fri, 9am - 6pm</p>
+        <!-- <p>Saturday, 8.30am - 2pm</p> -->
       </div>
       <div class="py-3 text-[#cf7a03]">
         <a href="#" class="underline">Get Directions</a>
