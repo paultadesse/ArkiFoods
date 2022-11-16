@@ -430,6 +430,8 @@
     </div>
   </div>
 
+  <Partners />
+
   <!-- address -->
   <div
     class="map-img h-[600px] flex items-center justify-center xl:justify-start"
@@ -454,7 +456,7 @@
         <p>Addis Ababa, Ethiopia</p>
       </div>
       <div class="text-[#908980]">
-        <p>Mon - Fri, 9am - 6pm</p>
+        <p>Mon - Fri, 9am - 5pm</p>
         <!-- <p>Saturday, 8.30am - 2pm</p> -->
       </div>
       <div class="py-3 text-[#cf7a03]">
@@ -463,7 +465,9 @@
     </div>
   </div>
 </template>
-
+<script setup>
+import Partners from "../Components/Partners.vue";
+</script>
 <script>
 import Layout from "../Shared/Layout.vue";
 export default {
